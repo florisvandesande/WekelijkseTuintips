@@ -5,7 +5,7 @@ sort_order: 40
 items:
   - id: kringloop-compost-balans-start
     title: "Breng de composthoop weer in balans na de winter"
-    weeks: [3, 4, 5, 6]
+    weeks: [5]
     start_year: 2026
     repeat_every_years: 1
     priority: medium
@@ -16,7 +16,7 @@ items:
       Na de winter zijn composthopen vaak nat, ingezakt en scheef in verhouding tussen groen en bruin materiaal. Maak de hoop los, meng droge structuurdelen door natte zones en scherm hem indien nodig af tegen aanhoudende regen. Let op scherpe zure geur of een glanzend natte massa, want dat wijst op te weinig lucht en te veel compact materiaal. Een goede start maakt de hele kringloop later veel betrouwbaarder.
   - id: kringloop-snoeihout-gebruiken
     title: "Gebruik rustig snoeihout zoveel mogelijk in de tuin zelf"
-    weeks: [7, 8, 9, 10, 11]
+    weeks: [9]
     start_year: 2026
     repeat_every_years: 1
     priority: medium
@@ -27,7 +27,7 @@ items:
       In deze periode komt vaak houtig snoeimateriaal vrij dat te waardevol is om zonder nadenken af te voeren. Hergebruik rechte of fijne takken als losse steun, onderlaag in een takkenril of grove fractie in een kringloophoek. Gebruik geen ziek hout op plekken waar het lang vochtig blijft liggen, want dan vergroot je kans op herbesmetting. Door hout slim te hergebruiken houd je meer structuur en habitat op eigen terrein.
   - id: kringloop-onkruid-scheiden
     title: "Scheid wortelonkruid en zaaddragend materiaal direct"
-    weeks: [14, 15, 16, 17, 18]
+    weeks: [16]
     start_year: 2026
     repeat_every_years: 1
     priority: high
@@ -38,7 +38,7 @@ items:
       In het voorjaar komt veel jong plantmateriaal vrij, maar niet alles is geschikt voor een rustige compostering. Houd wortelonkruid, uitgebloeide zaaddragers en ziek blad apart van schoon groen materiaal en laat het niet achteloos in mulch of compost verdwijnen. Kijk vooral naar kweek, zevenblad en materiaal met duidelijke schimmelsporen, want dat verspreidt zich makkelijk opnieuw. Een strakke scheiding voorkomt dat kringloopwerk later extra herstelwerk wordt.
   - id: kringloop-maaigoed-dun-gebruiken
     title: "Gebruik maaigoed alleen in dunne lagen"
-    weeks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+    weeks: [20, 23, 27, 30]
     start_year: 2026
     repeat_every_years: 1
     priority: medium
@@ -49,7 +49,7 @@ items:
       Vanaf de eerste maaibeurten is er vaak ineens veel fris groen materiaal beschikbaar. Laat maaigoed even drogen en gebruik het vervolgens in heel dunne lagen rond moestuinvakken of op de composthoop gemengd met droger materiaal. Leg geen dikke natte pakketten neer, want die gaan broeien, plakken en ruiken snel onaangenaam. Dun verwerkt maaigoed voedt de kringloop zonder rommelige bijwerkingen.
   - id: kringloop-zomer-omzetten
     title: "Zet actieve compost in de zomer gericht om"
-    weeks: [27, 28, 29, 30, 31]
+    weeks: [27, 29, 31]
     start_year: 2026
     repeat_every_years: 1
     priority: medium
@@ -60,7 +60,7 @@ items:
       Warm weer versnelt compostering, maar alleen als de hoop nog luchtig en gelijkmatig vochtig blijft. Zet actieve hopen om wanneer de structuur dicht slaat of wanneer onverteerde randen blijven hangen en voeg zo nodig droog materiaal toe. Controleer of de hoop niet kurkdroog wordt in de zon, want dan valt het proces juist stil. Met een gerichte zomerbeurt krijg je sneller bruikbaar materiaal voor het najaar.
   - id: kringloop-ziek-materiaal-apart
     title: "Houd ziek plantmateriaal het hele groeiseizoen apart"
-    weeks: [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+    weeks: [24, 29, 35, 40]
     start_year: 2026
     repeat_every_years: 1
     priority: high
@@ -71,7 +71,7 @@ items:
       Wanneer schimmel en aantastingen in de zomer toenemen, is netjes scheiden belangrijker dan snel opruimen. Verzamel ziek blad, rotte vruchten en aangetaste stengels apart en laat ze niet tussen gewoon mulch- of compostmateriaal belanden. Let erop dat je gereedschap of handen na het werken in gevoelige vakken schoonmaakt voordat je elders verdergaat. Zo voorkom je dat de kringloop onbedoeld een verspreidingsroute wordt.
   - id: kringloop-zomerresten-plekgeven
     title: "Geef zomerse knipresten meteen een passende bestemming"
-    weeks: [30, 31, 32, 33, 34, 35, 36]
+    weeks: [33]
     start_year: 2026
     repeat_every_years: 1
     priority: medium
@@ -82,7 +82,7 @@ items:
       In de nazomer komt veel gemengd materiaal vrij uit borders, potten en moestuin en raakt de werkhoek snel vol. Verdeel zachte resten over compost, gebruik schoon blad als mulch en bundel houtiger stengels apart voor later gebruik of habitat. Laat hopen niet dagenlang op paden of tegen muren liggen, want dat trekt slakken en houdt onnodig vocht vast. Een snelle verdeling houdt de tuin functioneel en de kringloop overzichtelijk.
   - id: kringloop-bladcompost-opbouwen
     title: "Maak van herfstblad een aparte bladcompoststroom"
-    weeks: [42, 43, 44, 45, 46, 47, 48]
+    weeks: [44]
     start_year: 2026
     repeat_every_years: 1
     priority: high
@@ -93,7 +93,7 @@ items:
       Herfstblad verteert anders dan vers groen materiaal en werkt het best in een eigen rustige stroom. Verzamel schoon blad in een open korf, draadkooi of aparte hoek en houd het licht vochtig zodat het langzaam kan verteren tot bladcompost. Gebruik liever geen dikke lagen ziek of vettig blad van verharding waar veel straatvuil tussen zit. Deze aparte voorraad levert later een zachte bodemverbeteraar op voor borders en heesters.
   - id: kringloop-winter-afdekken
     title: "Dek kringloophoeken in de winter zo af dat lucht mogelijk blijft"
-    weeks: [49, 50, 51, 52]
+    weeks: [51]
     start_year: 2026
     repeat_every_years: 1
     priority: low
@@ -104,7 +104,7 @@ items:
       In de winter spoelt veel voedingsrijk materiaal uit wanneer hopen open en kletsnat blijven staan. Bescherm compost en bladopslag losjes tegen extreme regen, maar laat zijkanten of bovenkant genoeg lucht houden zodat het materiaal niet verstikt. Controleer of afdekking niet wegwaait en geen natte, plakkende zak wordt waar alles onder dicht slaat. Zo blijft de inhoud bruikbaar en de werkhoek netter tot het voorjaar.
   - id: kringloop-compostrijp-controleren
     title: "Controleer in het voorjaar welke compost echt rijp genoeg is"
-    weeks: [11, 12, 13, 14, 15]
+    weeks: [13]
     start_year: 2026
     repeat_every_years: 1
     priority: medium
