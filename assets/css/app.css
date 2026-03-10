@@ -1,0 +1,700 @@
+:root {
+    --font-body: 'Merriweather', Georgia, serif;
+    --font-ui: 'Futura Condensed Medium', 'Arial Narrow', 'Helvetica Condensed', sans-serif-condensed, sans-serif;
+
+    --text-xs: 0.75rem;
+    --text-s: 0.875rem;
+    --text-base: 1.125rem;
+    --text-l: 1.25rem;
+    --text-xl: 1.5rem;
+    --text-xxl: 1.875rem;
+    --text-xxxl: 2.25rem;
+    --text-xxxxl: 3rem;
+
+    --color-bg: #f7f4ed;
+    --color-bg-soft: #fffef9;
+    --color-surface: #fffef9;
+    --color-surface-muted: #f5f0e5;
+    --color-text: #2a2a2a;
+    --color-muted: #5a5a5a;
+    --color-border: #e8dfc8;
+
+    --color-accent: #f5d16e;
+    --color-accent-strong: #f3cf7b;
+    --color-high: #a05f2f;
+    --color-medium: #8b7b51;
+    --color-low: #6f8162;
+
+    --shadow-soft: 0 1px 3px rgba(0, 0, 0, 0.06);
+    --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+    --radius-s: 0.4rem;
+    --radius-m: 0.6rem;
+    --radius-l: 1.2rem;
+
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2.5rem;
+    --space-5: 4rem;
+    --space-6: 6rem;
+
+    --max-width: 60ch;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #1f1a14;
+        --color-bg-soft: #272017;
+        --color-surface: #2d261d;
+        --color-surface-muted: #352d22;
+        --color-text: #f2e8d6;
+        --color-muted: #cbbda2;
+        --color-border: #5f503a;
+
+        --color-accent: #d8aa42;
+        --color-accent-strong: #f0c56b;
+        --color-high: #e09d65;
+        --color-medium: #d5c17d;
+        --color-low: #a7c08f;
+
+        --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.35);
+        --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.45);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    color: var(--color-text);
+    background: var(--color-bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: tabular-nums;
+    padding-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: var(--space-5);
+    margin-bottom: var(--space-3);
+    font-family: var(--font-body);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: var(--text-xxxxl);
+}
+
+h2 {
+    font-size: var(--text-xxxl);
+}
+
+h3 {
+    font-size: var(--text-xxl);
+}
+
+p {
+    margin: 0 0 var(--space-3);
+    max-width: var(--max-width);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: inset 0 -3px 0 var(--color-accent);
+    transition: background 150ms cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+a:hover,
+a:focus {
+    background: var(--color-accent);
+}
+
+a:focus-visible {
+    outline: 2px solid var(--color-accent-strong);
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+::selection {
+    background: var(--color-accent);
+    color: #2a2a2a;
+}
+
+.shell {
+    width: min(var(--max-width), calc(100% - 3rem));
+    margin: 0 auto;
+}
+
+.site-header {
+    padding: 0;
+}
+
+.header-shell {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-2);
+    align-items: start;
+    padding: var(--space-3) 0 calc(var(--space-3) - 0.35rem);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.site-title {
+    font-family: var(--font-ui);
+    font-size: var(--text-xxxl);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: var(--color-text);
+    box-shadow: none;
+    background: none;
+}
+
+.site-title:hover,
+.site-title:focus-visible {
+    color: var(--color-text);
+    background: none;
+}
+
+.site-title,
+.button-link,
+.week-nav-link,
+.season-week-link,
+.header-weather-today-link {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.page-main {
+    padding: var(--space-2) 0 var(--space-5);
+    display: grid;
+    gap: var(--space-5);
+}
+
+.week-top {
+    display: grid;
+    gap: var(--space-2);
+}
+
+.header-weather {
+    display: grid;
+    gap: 0.2rem;
+    align-self: center;
+}
+
+.header-weather-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.75rem;
+    align-items: stretch;
+}
+
+.header-weather-today {
+    display: grid;
+    align-content: center;
+    gap: 0.1rem;
+    padding-right: 0.75rem;
+    border-right: 1px solid var(--color-border);
+}
+
+.header-weather-today-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-weather-today-link:hover,
+.header-weather-today-link:focus-visible {
+    color: var(--color-accent-strong);
+    background: none;
+}
+
+.header-weather-today-label {
+    margin: 0;
+    font-family: var(--font-ui);
+    text-transform: lowercase;
+    letter-spacing: 0.06em;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    line-height: 1;
+    text-align: right;
+}
+
+.header-weather-today-main {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: var(--font-ui);
+    font-size: 2rem;
+    line-height: 1.05;
+}
+
+.header-weather-today-main span:first-child {
+    font-size: 2.1rem;
+}
+
+.header-weather-next {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.header-weather-next-item {
+    display: grid;
+    gap: 0.7rem;
+}
+
+.header-weather-next-day {
+    font-family: var(--font-ui);
+    letter-spacing: 0.03em;
+    font-size: 0.92rem;
+    color: var(--color-muted);
+    line-height: 1;
+    text-align: center;
+}
+
+.header-weather-next-main {
+    display: inline-flex;
+    gap: 0.25rem;
+    align-items: center;
+    font-family: var(--font-ui);
+    font-size: 1.35rem;
+    line-height: 1;
+}
+
+.header-weather-next-main span:first-child {
+    font-size: 1.45rem;
+}
+
+.header-weather-error {
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--color-high);
+}
+
+.week-hero {
+    display: grid;
+    gap: var(--space-2);
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.week-hero h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, var(--text-xxl));
+    line-height: 1.15;
+}
+
+.week-range {
+    margin: 0;
+    font-size: 1.05rem;
+    color: var(--color-muted);
+}
+
+.week-intro {
+    margin: 0;
+    max-width: 60ch;
+}
+
+.button-link,
+.week-nav-link,
+.season-week-link {
+    font-family: var(--font-ui);
+    text-decoration: none;
+    color: inherit;
+}
+
+.week-nav {
+    width: 100%;
+    display: flex;
+    gap: var(--space-2);
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.2rem;
+}
+
+.week-nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: transparent;
+    font-size: var(--text-s);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1.15;
+    transition: border-color 140ms ease;
+}
+
+.week-nav-link:hover,
+.week-nav-link:focus-visible {
+    border-color: var(--color-accent-strong);
+    background: transparent;
+}
+
+.week-nav-current {
+    border-color: var(--color-accent-strong);
+    background: color-mix(in srgb, var(--color-accent) 24%, var(--color-surface));
+    text-transform: uppercase;
+}
+
+.season-calendar h2,
+.secondary-note h2,
+.empty-state h2,
+.error-card h1 {
+    margin: 0 0 var(--space-2);
+    font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.season-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-2);
+}
+
+.season-card {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.season-card h3 {
+    margin: 0 0 var(--space-1);
+    font-family: var(--font-ui);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 1.12rem;
+    color: var(--color-muted);
+}
+
+.season-week-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.season-week-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 3rem;
+    padding: 0.25rem 0.45rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg-soft);
+    font-size: 0.95rem;
+}
+
+.season-week-link:hover,
+.season-week-link:focus-visible {
+    border-color: var(--color-accent-strong);
+    background: var(--color-bg-soft);
+}
+
+.season-week-link.is-active {
+    border-color: var(--color-accent-strong);
+    background: color-mix(in srgb, var(--color-accent) 28%, var(--color-bg-soft));
+    font-weight: 700;
+}
+
+.category-section,
+.secondary-note,
+.empty-state,
+.error-card {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.tip-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: var(--space-2);
+}
+
+.tip-item {
+    padding: 0;
+    border-left: 0;
+    border-radius: 0;
+    background: transparent;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-border) 70%, transparent);
+}
+
+.page-main > .category-section:last-child .tip-item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.tip-item h3 {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+    font-size: var(--text-l);
+}
+
+.tip-details {
+    width: 100%;
+}
+
+.tip-summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+    cursor: pointer;
+    padding: 0.2rem 0 0.65rem;
+}
+
+.tip-summary::-webkit-details-marker {
+    display: none;
+}
+
+.tip-summary::marker {
+    content: '';
+}
+
+.tip-summary:focus-visible {
+    outline: 2px solid var(--color-accent-strong);
+    outline-offset: 2px;
+    border-radius: var(--radius-s);
+}
+
+.tip-summary h3 {
+    flex: 1 1 auto;
+}
+
+.tip-summary-arrow {
+    flex: 0 0 auto;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-right: 2px solid var(--color-muted);
+    border-bottom: 2px solid var(--color-muted);
+    transform: rotate(-45deg);
+    transition: transform 140ms ease, border-color 140ms ease;
+}
+
+.tip-details[open] .tip-summary {
+    padding-bottom: 0.35rem;
+}
+
+.tip-details[open] .tip-summary-arrow {
+    transform: rotate(45deg);
+    border-color: var(--color-text);
+}
+
+.tip-content {
+    padding-bottom: 0.65rem;
+}
+
+.category-section h2 {
+    margin: 0 0 0.35rem;
+    font-family: var(--font-ui);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+}
+
+.tip-item p,
+.secondary-note p,
+.empty-state p,
+.error-card p {
+    margin: 0.35rem 0 0;
+}
+
+.tip-priority-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-inline-start: 0.05rem;
+    padding: 0.18rem 0.72rem 0.16rem;
+    font-family: var(--font-ui);
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    line-height: 1;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    border: 1px solid color-mix(in srgb, var(--color-accent-strong) 65%, var(--color-border));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-accent) 55%, transparent);
+}
+
+.button-link {
+    display: inline-flex;
+    margin-top: var(--space-2);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-accent-strong);
+    background: color-mix(in srgb, var(--color-accent) 30%, var(--color-surface));
+}
+
+.button-link:hover,
+.button-link:focus-visible {
+    background: color-mix(in srgb, var(--color-accent) 42%, var(--color-surface));
+}
+
+.site-footer {
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-5) 0 var(--space-3);
+}
+
+.footer-calendar {
+    padding-bottom: var(--space-3);
+}
+
+.footer-shell {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-shell p {
+    margin: 0;
+    color: var(--color-muted);
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--color-accent-strong);
+    outline-offset: 2px;
+}
+
+@media (max-width: 1000px) {
+    .season-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    .shell {
+        width: min(var(--max-width), calc(100% - 2rem));
+    }
+
+    .site-title {
+        font-size: clamp(1.2rem, 6vw, var(--text-l));
+    }
+
+    .header-weather-today {
+        min-width: 7.1rem;
+    }
+
+    .header-weather-next {
+        gap: 0.45rem;
+    }
+
+    .header-weather-next-main {
+        font-size: 1rem;
+    }
+
+    .header-weather-next-day {
+        font-size: 0.82rem;
+    }
+
+    .week-nav-link {
+        padding: 0.42rem 0.62rem;
+        font-size: 0.96rem;
+        text-align: center;
+    }
+
+    .season-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --text-base: 1rem;
+        --text-xxxxl: 2rem;
+        --text-xxxl: 1.5rem;
+        --space-5: 2.5rem;
+        --space-6: 3.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+@media print {
+    body {
+        background: #fff;
+        color: #000;
+        font-size: 12pt;
+    }
+
+    .site-header,
+    .site-footer,
+    .week-nav,
+    .season-calendar {
+        display: none;
+    }
+
+    .page-main {
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .week-hero,
+    .category-section,
+    .secondary-note {
+        box-shadow: none;
+        border: 0;
+    }
+
+    .tip-details:not([open]) .tip-content {
+        display: block;
+    }
+}

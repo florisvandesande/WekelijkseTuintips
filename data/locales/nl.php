@@ -1,0 +1,37 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'site_title' => "Floris' tuintips",
+    'site_subtitle' => 'Praktische weektaken voor een gezonde tuin.',
+    'site_description' => 'Bekijk wat je deze week in de tuin kunt doen, met seizoenshulp en weersverwachting.',
+    'footer_message' => 'Veel tuin plezier',
+    'footer_language' => 'Actieve taal',
+    'language_nl' => 'Nederlands',
+    'footer_timezone' => 'Tijdzone',
+    'weather_title' => 'Weer (vandaag + 3 dagen)',
+    'weather_today' => 'Vandaag',
+    'weather_location' => 'Locatie',
+    'weather_unavailable' => 'Weerdata is nu tijdelijk niet beschikbaar.',
+    'weather_buienradar' => 'Bekijk Buienradar',
+    'weather_your_location' => 'Jouw locatie',
+    'week_navigation_label' => 'Weeknavigatie',
+    'week_previous' => 'Vorige week',
+    'week_current' => 'Deze week',
+    'week_next' => 'Volgende week',
+    'season_calendar_title' => 'Seizoenskalender {year}',
+    'priority_badge' => 'Belangrijk',
+    'empty_title' => 'Nog geen tips voor deze week',
+    'empty_message' => 'Voor deze week zijn er momenteel geen actieve taken gevonden. Probeer de vorige of volgende week.',
+    'error_invalid_week_title' => 'Ongeldige week',
+    'error_invalid_week_message' => 'De gevraagde week bestaat niet voor dit jaar. Kies een geldige week.',
+    'error_not_found_title' => 'Pagina niet gevonden',
+    'error_not_found_message' => 'Deze pagina bestaat niet. Ga terug naar de actuele week.',
+    'meta_week_title' => 'Week {week} van {year} | Floris\' tuintips',
+    'meta_week_description' => 'Tuintaken voor week {week}.',
+    'week_label' => 'Weekoverzicht',
+    'week_heading' => 'Week {week} van {year}',
+    'secondary_note_title' => 'Vooruitkijken',
+    'secondary_note_body' => 'Kijk ook kort naar volgende week, zodat je op tijd materiaal en planten kunt plannen.',
+];
