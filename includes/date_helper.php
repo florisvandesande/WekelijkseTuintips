@@ -154,10 +154,10 @@ function app_weekday_dutch(DateTimeImmutable $date): string
 function app_season_calendar(int $year, int $selected_week): array
 {
     $seasons = [
-        'winter' => [],
         'lente' => [],
         'zomer' => [],
         'herfst' => [],
+        'winter' => [],
     ];
 
     $weeks_in_year = app_iso_weeks_in_year($year);
