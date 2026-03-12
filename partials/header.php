@@ -20,6 +20,20 @@ $geolocation_enabled = (bool) app_array_get(app_config(), 'weather.geolocation_e
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title><?= e($meta_title); ?></title>
     <meta name="description" content="<?= e($meta_description); ?>">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f4ed">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1f1a14">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="<?= e(t('site_title')); ?>">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#f7f4ed">
+    <link rel="manifest" href="<?= e(app_url('/assets/site.webmanifest')); ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= e(app_url('/assets/images/icons/apple-touch-icon.png')); ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= e(app_url('/assets/images/icons/favicon-32x32.png')); ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= e(app_url('/assets/images/icons/favicon-16x16.png')); ?>">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?= e(app_url('/assets/images/icons/app-icon-192.png')); ?>">
+    <link rel="icon" type="image/png" sizes="512x512" href="<?= e(app_url('/assets/images/icons/app-icon-512.png')); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">

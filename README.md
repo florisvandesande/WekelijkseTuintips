@@ -18,6 +18,7 @@ It builds each week page from category markdown files in `content/categories/`.
 - category sections (empty categories are hidden)
 - weather block (today + next 3 days)
 - Buienradar link
+- install icon metadata for iOS home screen and Chrome/Android app install (manifest + touch icon + favicons)
 - dark mode support (`prefers-color-scheme`)
 - print-friendly layout
 - content validator script for markdown files
@@ -37,10 +38,14 @@ No Node, React, or Python runtime is required for the web app.
 assets/
   css/app.css
   js/app.js
+  images/app-icon.png
+  images/icons/*.png
+  site.webmanifest
 api/
   weather.php
 content/
   categories/*.md
+  monthly-intros.md
 includes/
 partials/
 data/
@@ -135,6 +140,17 @@ The current content pack contains these 20 category files:
 - `winterbeeld-en-structuur.md`
 
 Per category and per week, a file may produce `0..N` active items. Empty categories are hidden automatically in the app.
+
+## Month intro content (below date range)
+
+The short intro line under the week date range is content-driven and stored in:
+
+```text
+content/monthly-intros.md
+```
+
+Use the `monthly_intros` mapping (`1`..`12`) to edit text per month.
+Use `fallback_intro` for a default message if a month is missing.
 
 ### Example category file
 
