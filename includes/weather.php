@@ -8,6 +8,7 @@ declare(strict_types=1);
 function weather_get_header_forecast(?float $latitude = null, ?float $longitude = null, ?string $location_label = null): array
 {
     $weather_config = (array) app_array_get(app_config(), 'weather', []);
+    $has_explicit_coordinates = $latitude !== null && $longitude !== null;
 
     if (($weather_config['enabled'] ?? false) !== true) {
         return [
@@ -19,7 +20,7 @@ function weather_get_header_forecast(?float $latitude = null, ?float $longitude 
         ];
     }
 
-    if ($latitude === null || $longitude === null) {
+    if (!$has_explicit_coordinates) {
         $latitude = (float) app_array_get($weather_config, 'fallback_location.latitude', 52.0907);
         $longitude = (float) app_array_get($weather_config, 'fallback_location.longitude', 5.1214);
     }
@@ -28,7 +29,13 @@ function weather_get_header_forecast(?float $latitude = null, ?float $longitude 
         $location_label = (string) app_array_get($weather_config, 'fallback_location.label', 'Onbekende locatie');
     }
 
-    $cache_key = sprintf('weather_%s_%s', number_format($latitude, 4, '_', ''), number_format($longitude, 4, '_', ''));
+    $coordinate_source = $has_explicit_coordinates ? 'user' : 'fallback';
+    $cache_key = sprintf(
+        'weather_%s_%s_%s',
+        number_format($latitude, 4, '_', ''),
+        number_format($longitude, 4, '_', ''),
+        $coordinate_source
+    );
     $cache_file = app_path('data/cache/' . preg_replace('/[^a-zA-Z0-9_\-]/', '_', $cache_key) . '.json');
     $cache_ttl = (int) ($weather_config['cache_ttl_seconds'] ?? 1800);
 
@@ -63,7 +70,7 @@ function weather_get_header_forecast(?float $latitude = null, ?float $longitude 
             'enabled' => true,
             'location' => $location_label,
             'days' => [],
-            'buienradar_url' => weather_buienradar_url($latitude, $longitude),
+            'buienradar_url' => weather_buienradar_url($latitude, $longitude, $has_explicit_coordinates),
             'error' => t('weather_unavailable'),
         ];
     }
@@ -76,7 +83,7 @@ function weather_get_header_forecast(?float $latitude = null, ?float $longitude 
             'enabled' => true,
             'location' => $location_label,
             'days' => [],
-            'buienradar_url' => weather_buienradar_url($latitude, $longitude),
+            'buienradar_url' => weather_buienradar_url($latitude, $longitude, $has_explicit_coordinates),
             'error' => t('weather_unavailable'),
         ];
     }
@@ -89,7 +96,7 @@ function weather_get_header_forecast(?float $latitude = null, ?float $longitude 
         'latitude' => $latitude,
         'longitude' => $longitude,
         'days' => weather_enrich_forecast_days($forecast),
-        'buienradar_url' => weather_buienradar_url($latitude, $longitude),
+        'buienradar_url' => weather_buienradar_url($latitude, $longitude, $has_explicit_coordinates),
         'error' => null,
     ];
 
@@ -225,9 +232,137 @@ function weather_enrich_forecast_days(array $days): array
 }
 
 /**
- * Build Buienradar URL with optional coordinate hint.
+ * Build Buienradar URL for explicit user coordinates.
  */
-function weather_buienradar_url(float $latitude, float $longitude): string
+function weather_buienradar_url(float $latitude, float $longitude, bool $has_explicit_coordinates = false): string
 {
-    return 'https://www.buienradar.nl/';
+    if (!$has_explicit_coordinates) {
+        return 'https://www.buienradar.nl/';
+    }
+
+    $location = weather_buienradar_location_from_coordinates($latitude, $longitude);
+
+    if ($location === null) {
+        return 'https://www.buienradar.nl/';
+    }
+
+    $place_url = weather_buienradar_place_url($location);
+
+    return $place_url ?? 'https://www.buienradar.nl/';
+}
+
+/**
+ * Resolve Buienradar place metadata from latitude/longitude.
+ */
+function weather_buienradar_location_from_coordinates(float $latitude, float $longitude): ?array
+{
+    $weather_config = (array) app_array_get(app_config(), 'weather', []);
+    $timeout_seconds = (int) ($weather_config['request_timeout_seconds'] ?? 8);
+    $timeout_seconds = max(2, min(10, $timeout_seconds));
+
+    $query = [
+        'lat' => number_format($latitude, 2, '.', ''),
+        'lon' => number_format($longitude, 2, '.', ''),
+    ];
+
+    $request_url = 'https://location.buienradar.nl/1.1/location/geo?' . http_build_query($query);
+    $context = stream_context_create([
+        'http' => [
+            'method' => 'GET',
+            'timeout' => $timeout_seconds,
+        ],
+    ]);
+
+    $response = @file_get_contents($request_url, false, $context);
+
+    if (!is_string($response)) {
+        app_log('error', 'Buienradar location request failed.', ['url' => $request_url]);
+        return null;
+    }
+
+    $decoded = json_decode($response, true);
+
+    if (!is_array($decoded)) {
+        app_log('error', 'Buienradar location payload is not valid JSON.', ['payload' => $response]);
+        return null;
+    }
+
+    if (isset($decoded[0]) && is_array($decoded[0])) {
+        $decoded = $decoded[0];
+    }
+
+    $id = $decoded['id'] ?? null;
+    $country_code = strtoupper(trim((string) ($decoded['countrycode'] ?? '')));
+    $place_name = trim((string) ($decoded['asciiname'] ?? ''));
+
+    if ($place_name === '') {
+        $place_name = trim((string) ($decoded['name'] ?? ''));
+    }
+
+    if (
+        (!is_int($id) && !ctype_digit((string) $id))
+        || (int) $id <= 0
+        || !preg_match('/^[A-Z]{2}$/', $country_code)
+        || $place_name === ''
+    ) {
+        app_log('debug', 'Buienradar location payload missing required fields.', ['payload' => $decoded]);
+        return null;
+    }
+
+    return [
+        'id' => (int) $id,
+        'country_code' => $country_code,
+        'place_name' => $place_name,
+    ];
+}
+
+/**
+ * Build Buienradar place URL from normalized location metadata.
+ */
+function weather_buienradar_place_url(array $location): ?string
+{
+    $id = (int) ($location['id'] ?? 0);
+    $country_code = strtoupper(trim((string) ($location['country_code'] ?? '')));
+    $place_name = trim((string) ($location['place_name'] ?? ''));
+    $place_slug = weather_buienradar_slug($place_name);
+
+    if ($id <= 0 || !preg_match('/^[A-Z]{2}$/', $country_code) || $place_slug === '') {
+        return null;
+    }
+
+    return sprintf(
+        'https://www.buienradar.nl/weer/%s/%s/%d',
+        rawurlencode($place_slug),
+        $country_code,
+        $id
+    );
+}
+
+/**
+ * Convert a place name to a URL-safe slug.
+ */
+function weather_buienradar_slug(string $value): string
+{
+    $slug = trim($value);
+
+    if ($slug === '') {
+        return '';
+    }
+
+    if (function_exists('iconv')) {
+        $ascii = @iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $slug);
+        if (is_string($ascii) && $ascii !== '') {
+            $slug = $ascii;
+        }
+    }
+
+    $slug = strtolower($slug);
+    $slug = (string) preg_replace('/[^a-z0-9]+/', '-', $slug);
+    $slug = trim($slug, '-');
+
+    if ($slug === '') {
+        return '';
+    }
+
+    return $slug;
 }
