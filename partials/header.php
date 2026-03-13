@@ -11,6 +11,7 @@ $weather_next_days = array_slice($weather_days, 1, 3);
 $weather_error = is_string($weather_data['error'] ?? null) ? (string) $weather_data['error'] : '';
 $weather_buienradar_url = is_string($weather_data['buienradar_url'] ?? null) ? (string) $weather_data['buienradar_url'] : 'https://www.buienradar.nl/';
 $geolocation_enabled = (bool) app_array_get(app_config(), 'weather.geolocation_enabled', false);
+$weather_today_icon_slug = weather_normalize_icon_slug($weather_today['weather_icon_slug'] ?? null);
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -65,7 +66,11 @@ $geolocation_enabled = (bool) app_array_get(app_config(), 'weather.geolocation_e
                         >
                             <p class="header-weather-today-label"><?= e(t('weather_today')); ?></p>
                             <p class="header-weather-today-main">
-                                <span id="header-weather-today-icon"><?= e((string) ($weather_today['weather_icon'] ?? '☁')); ?></span>
+                                <span
+                                    class="weather-icon weather-icon--today <?= e($weather_today_icon_slug); ?>"
+                                    id="header-weather-today-icon"
+                                    aria-hidden="true"
+                                ></span>
                                 <span id="header-weather-today-temp"><?= e((string) round((float) ($weather_today['max_temp'] ?? 0))); ?>℃</span>
                             </p>
                         </a>
@@ -75,6 +80,7 @@ $geolocation_enabled = (bool) app_array_get(app_config(), 'weather.geolocation_e
                         <?php foreach ($weather_next_days as $day): ?>
                             <?php
                             $weekday = is_string($day['weekday'] ?? null) ? trim((string) $day['weekday']) : '';
+                            $icon_slug = weather_normalize_icon_slug($day['weather_icon_slug'] ?? null);
 
                             if ($weekday === '' && is_string($day['date'] ?? null)) {
                                 $date = DateTimeImmutable::createFromFormat('Y-m-d', (string) $day['date']);
@@ -86,7 +92,7 @@ $geolocation_enabled = (bool) app_array_get(app_config(), 'weather.geolocation_e
                             <li class="header-weather-next-item">
                                 <span class="header-weather-next-day"><?= e($weekday); ?></span>
                                 <span class="header-weather-next-main">
-                                    <span><?= e((string) ($day['weather_icon'] ?? '☁')); ?></span>
+                                    <span class="weather-icon weather-icon--next <?= e($icon_slug); ?>" aria-hidden="true"></span>
                                     <span><?= e((string) round((float) ($day['max_temp'] ?? 0))); ?>℃</span>
                                 </span>
                             </li>

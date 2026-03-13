@@ -150,7 +150,7 @@ function weather_normalize_daily_forecast(array $daily): array
             'min_temp' => (float) $min_values[$index],
             'weather_code' => (int) $codes[$index],
             'weather_text' => weather_code_to_text((int) $codes[$index]),
-            'weather_icon' => weather_code_to_icon((int) $codes[$index]),
+            'weather_icon_slug' => weather_code_to_icon_slug((int) $codes[$index]),
             'precipitation_probability' => isset($precipitation[$index]) ? (int) $precipitation[$index] : null,
         ];
     }
@@ -179,22 +179,53 @@ function weather_code_to_text(int $code): string
 }
 
 /**
- * Map Open-Meteo weather code to a compact weather icon.
+ * Return supported ErikFlowers weather icon slugs.
  */
-function weather_code_to_icon(int $code): string
+function weather_supported_icon_slugs(): array
+{
+    static $slugs = [
+        'wi-day-sunny',
+        'wi-day-cloudy',
+        'wi-cloudy',
+        'wi-fog',
+        'wi-sprinkle',
+        'wi-rain',
+        'wi-snow',
+        'wi-showers',
+        'wi-thunderstorm',
+    ];
+
+    return $slugs;
+}
+
+/**
+ * Normalize a weather icon slug to the supported local icon set.
+ */
+function weather_normalize_icon_slug(mixed $icon_slug): string
+{
+    if (is_string($icon_slug) && in_array($icon_slug, weather_supported_icon_slugs(), true)) {
+        return $icon_slug;
+    }
+
+    return 'wi-cloudy';
+}
+
+/**
+ * Map Open-Meteo weather code to a local ErikFlowers icon slug.
+ */
+function weather_code_to_icon_slug(int $code): string
 {
     return match (true) {
-        $code === 0 => '☼',
-        in_array($code, [1, 2], true) => '⛅',
-        $code === 3 => '☁',
-        in_array($code, [45, 48], true) => '≋',
-        in_array($code, [51, 53, 55, 56, 57], true) => '⛆',
-        in_array($code, [61, 63, 65, 66, 67], true) => '☂',
-        in_array($code, [71, 73, 75, 77], true) => '❄',
-        in_array($code, [80, 81, 82], true) => '⛆',
-        in_array($code, [85, 86], true) => '❄',
-        in_array($code, [95, 96, 99], true) => '⚡',
-        default => '☁',
+        $code === 0 => 'wi-day-sunny',
+        in_array($code, [1, 2], true) => 'wi-day-cloudy',
+        $code === 3 => 'wi-cloudy',
+        in_array($code, [45, 48], true) => 'wi-fog',
+        in_array($code, [51, 53, 55, 56, 57], true) => 'wi-sprinkle',
+        in_array($code, [61, 63, 65, 66, 67], true) => 'wi-rain',
+        in_array($code, [71, 73, 75, 77, 85, 86], true) => 'wi-snow',
+        in_array($code, [80, 81, 82], true) => 'wi-showers',
+        in_array($code, [95, 96, 99], true) => 'wi-thunderstorm',
+        default => 'wi-cloudy',
     };
 }
 
@@ -221,9 +252,9 @@ function weather_enrich_forecast_days(array $days): array
             ? (string) $day['weekday']
             : ($date instanceof DateTimeImmutable ? app_weekday_dutch($date) : '');
 
-        $day['weather_icon'] = is_string($day['weather_icon'] ?? null) && $day['weather_icon'] !== ''
-            ? (string) $day['weather_icon']
-            : weather_code_to_icon($code);
+        $day['weather_icon_slug'] = is_string($day['weather_icon_slug'] ?? null) && $day['weather_icon_slug'] !== ''
+            ? weather_normalize_icon_slug($day['weather_icon_slug'])
+            : weather_code_to_icon_slug($code);
 
         $result[] = $day;
     }

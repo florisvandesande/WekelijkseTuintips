@@ -17,6 +17,7 @@ It builds each week page from category markdown files in `content/categories/`.
 - priority block with the most urgent tips
 - category sections (empty categories are hidden)
 - weather block (today + next 3 days)
+- self-hosted ErikFlowers SVG weather icons in the header (`assets/images/weather/`)
 - Buienradar link
 - install icon metadata for iOS home screen and Chrome/Android app install (manifest + touch icon + favicons)
 - dark mode support (`prefers-color-scheme`)
@@ -40,6 +41,7 @@ assets/
   js/app.js
   images/app-icon.png
   images/icons/*.png
+  images/weather/*.svg
   site.webmanifest
 api/
   weather.php
@@ -59,6 +61,17 @@ week.php
 config.example.php
 .htaccess
 ```
+
+## Weather icon assets
+
+The header weather icons are stored locally in:
+
+```text
+assets/images/weather/
+```
+
+This project vendors only the ErikFlowers SVG files that are currently used by the weather-code mapping, so the live site does not depend on third-party icon requests.
+See `assets/images/weather/README.md` for the upstream source and license note.
 
 ## Setup (beginner steps)
 
