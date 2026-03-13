@@ -10,7 +10,7 @@ It builds each week page from category markdown files in `content/categories/`.
 
 ## Features
 
-- homepage redirects to the current ISO week
+- homepage shows the current ISO week without redirect, so `/tuintips/` stays stable for iOS home-screen use
 - weekly pages with URL pattern `/tuintips/{year}/week/{week}`
 - previous/current/next week navigation
 - season calendar for the selected year
@@ -97,12 +97,13 @@ git status
 
 ## Routes
 
-- `/` -> redirects to current ISO week
+- `/tuintips/` -> shows the current ISO week without redirect
 - `/tuintips/current` -> redirects to current ISO week URL
 - `/tuintips/{year}/week/{week}` -> week page
 
 Examples:
 
+- `/tuintips/`
 - `/tuintips/2026/week/10`
 - `/tuintips/2027/week/1`
 
@@ -271,7 +272,7 @@ The validator exits with a non-zero status when validation fails.
 2. Ensure `config.php` exists on the server
 3. Ensure `data/cache/` and `data/logs/` are writable by PHP
 4. Confirm `.htaccess` and `mod_rewrite` are active
-5. Open `/tuintips/` and verify redirect to current week
+5. Open `/tuintips/` and verify it stays on the base URL while showing the current week
 
 ## Notes about language
 

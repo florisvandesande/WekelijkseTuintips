@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-$selected_url = app_week_url((int) $week_context['year'], (int) $week_context['week']);
+$selected_url = is_string($selected_url ?? null) && $selected_url !== ''
+    ? (string) $selected_url
+    : app_week_url((int) $week_context['year'], (int) $week_context['week']);
 $selected_week_label = t('week_heading', [
     'week' => (string) ((int) $week_context['week']),
     'year' => (string) ((int) $week_context['year']),

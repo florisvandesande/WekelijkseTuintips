@@ -29,7 +29,7 @@ function app_resolve_route(string $request_uri): array
     }
 
     if ($normalized_path === '/' || $relative_path === '/') {
-        return ['type' => 'current'];
+        return ['type' => 'home'];
     }
 
     if ($relative_path === '/current') {
