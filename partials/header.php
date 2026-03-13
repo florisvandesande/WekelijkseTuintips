@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 $meta_title = $meta_title ?? t('site_title');
 $meta_description = $meta_description ?? t('site_description');
-$home_week = app_current_iso_year_week();
 $weather_data = is_array($weather_data ?? null) ? $weather_data : null;
 $weather_days = is_array($weather_data['days'] ?? null) ? $weather_data['days'] : [];
 $weather_today = $weather_days[0] ?? null;
@@ -42,7 +41,7 @@ $geolocation_enabled = (bool) app_array_get(app_config(), 'weather.geolocation_e
 <body>
 <header class="site-header">
     <div class="shell header-shell">
-        <a class="site-title" href="<?= e(app_week_url((int) $home_week['year'], (int) $home_week['week'])); ?>">
+        <a class="site-title" href="<?= e(app_home_url()); ?>">
             <?= e(t('site_title')); ?>
         </a>
 

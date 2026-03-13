@@ -52,6 +52,20 @@ function app_url(string $path = '/', array $query = []): string
 }
 
 /**
+ * Return the stable home URL for the app.
+ */
+function app_home_url(): string
+{
+    $home_url = app_url('/');
+
+    if ($home_url === '/') {
+        return '/';
+    }
+
+    return rtrim($home_url, '/') . '/';
+}
+
+/**
  * Redirect and stop execution.
  */
 function app_redirect(string $url, int $status_code = 302): never

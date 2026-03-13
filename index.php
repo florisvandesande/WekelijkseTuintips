@@ -9,6 +9,15 @@ require_once APP_ROOT . '/includes/bootstrap.php';
 $route = app_resolve_route($_SERVER['REQUEST_URI'] ?? '/');
 $current_year_week = app_current_iso_year_week();
 
+if ($route['type'] === 'home') {
+    $selected_year = (int) $current_year_week['year'];
+    $selected_week = (int) $current_year_week['week'];
+    $selected_url = app_home_url();
+
+    require APP_ROOT . '/week.php';
+    exit;
+}
+
 if ($route['type'] === 'current') {
     app_redirect(app_week_url((int) $current_year_week['year'], (int) $current_year_week['week']));
 }

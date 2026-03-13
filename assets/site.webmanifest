@@ -3,7 +3,7 @@
   "short_name": "Tuintips",
   "description": "Wat moet ik deze week in de tuin doen?",
   "lang": "nl",
-  "start_url": "../current",
+  "start_url": "../",
   "scope": "../",
   "display": "standalone",
   "orientation": "portrait-primary",
