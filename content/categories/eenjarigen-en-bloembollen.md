@@ -15,7 +15,7 @@ items:
     body: |
       Nu de bodem opwarmt maar nog genoeg voorjaarsvocht bevat, kiemen veel sterke eenjarigen vlot en gelijkmatig. Zaai dun, markeer de rij of plek en houd het oppervlak daarna net vochtig tot de opkomst duidelijk is. Let op slakken en op dichtslaande grond na buien, want jonge kiemplanten verdwijnen dan snel uit beeld. Vroege zaai geeft vaak stevigere planten en een natuurlijker resultaat in de border.
   - id: eenjarigen-bolblad-laten-afsterven
-    title: "Laat bolgewasblad rustig afsterven na de bloei"
+    title: "Laat het blad van voorjaarsbollen na de bloei afsterven"
     weeks: [20]
     start_year: 2026
     repeat_every_years: 1
@@ -24,7 +24,7 @@ items:
     tags: [bloei, controle]
     garden_types: [siertuin]
     body: |
-      Na de voorjaarsbloei wil bolgewas zoveel mogelijk energie terugtrekken in de bol voor volgend jaar. Knip alleen uitgebloeide bloemstelen weg en laat het blad staan tot het vanzelf vergeelt en loslaat. Vlecht blad niet strak samen, want daarmee verminder je licht en lucht nog meer. Geduld op dit moment geeft vaak een rijkere bloei in het volgende seizoen.
+      Na de voorjaarsbloei moeten bollen zoveel mogelijk energie terugtrekken in de bol voor volgend jaar. Knip alleen uitgebloeide bloemstelen weg en laat het blad staan tot het vanzelf vergeelt en loslaat. Vlecht het blad niet strak samen, want daarmee verminder je licht en lucht nog meer. Geduld op dit moment geeft vaak een rijkere bloei in het volgende seizoen.
   - id: eenjarigen-uitplanten-na-koude
     title: "Plant voorgezaaide eenjarigen pas uit na koude nachten"
     weeks: [22]
@@ -68,7 +68,7 @@ items:
     tags: [planning, controle, bloei]
     garden_types: [siertuin]
     body: |
-      Zolang blad en plaats nog herkenbaar zijn kun je goed zien waar de voorjaarslaag dun, scheef of uit balans was. Markeer lege plekken of combinaties die niet overtuigden zodat je in de herfst gerichter kunt aanvullen. Vertrouw niet op je geheugen alleen, want tegen planttijd zijn veel details al verdwenen. Een simpele notitie maakt het bollenwerk later veel trefzekerder.
+      Zolang blad en plaats nog herkenbaar zijn kun je goed zien waar de bollenbeplanting dun, scheef of uit balans was. Markeer lege plekken of combinaties die niet overtuigden zodat je in de herfst gerichter kunt aanvullen. Vertrouw niet op je geheugen alleen, want tegen planttijd zijn veel details al verdwenen. Een simpele notitie maakt het bollenwerk later veel trefzekerder.
   - id: eenjarigen-tulpenbollen-selectief-liften
     title: "Lift alleen tulpen of andere bollen die beter droog bewaard worden"
     weeks: [26]
@@ -81,7 +81,7 @@ items:
     body: |
       Sommige bollen kunnen prima blijven zitten, terwijl andere op natte of drukke plekken beter even uit de grond gaan. Haal alleen volledig afgerijpt materiaal weg, droog het luchtig en label het meteen voor latere herplant. Lift geen groene, nog werkende bollen en bewaar ze niet vochtig of in volle zon. Selectief werken bespaart tijd en houdt het systeem overzichtelijk.
   - id: eenjarigen-dahlia-blad-gezond-houden
-    title: "Houd dahlia en andere tender bloeiers luchtig in de zomer"
+    title: "Houd dahlia's en andere vorstgevoelige zomerbloeiers gezond in de zomer"
     weeks: [25, 28, 31, 34]
     start_year: 2026
     repeat_every_years: 1
@@ -90,7 +90,7 @@ items:
     tags: [bloei, ziektepreventie, controle]
     garden_types: [siertuin]
     body: |
-      Bij warm groeizaam weer maken dahlia en vergelijkbare soorten snel veel blad en bloemen tegelijk. Verwijder beschadigd blad, geef voldoende ruimte en bind zware stelen op waar nodig. Let op slakkenvraat aan jong blad en op dicht bladerdek dat lang nat blijft na regen. Luchtig onderhoud verlengt de bloei en houdt de planten steviger.
+      Bij warm, groeizaam weer maken dahlia's en vergelijkbare soorten snel veel blad en bloemen tegelijk. Verwijder beschadigd blad, geef voldoende ruimte en bind zware stelen op waar nodig. Let op slakkenvraat aan jong blad en op dicht bladerdek dat lang nat blijft na regen. Licht onderhoud verlengt de bloei en houdt de planten steviger.
   - id: eenjarigen-late-zaai-accents
     title: "Zaai of plant late accenten voor nazomerkleur"
     weeks: [27]
@@ -103,7 +103,7 @@ items:
     body: |
       Na de eerste zomergolf ontstaat soms ruimte voor een tweede laag kleur of nectar in lege vakken en potten. Kies snelle soorten of jonge planten die nog genoeg weken hebben om op gang te komen en geef ze een lichte startverzorging. Let op droogte en concurrentie van omliggende beplanting, want die is in deze fase vaak groot. Met een kleine aanvulling blijft de tuin langer levendig zonder geforceerd te ogen.
   - id: eenjarigen-herfstbollen-planten
-    title: "Plant herfst en voorjaarsbollen op tijd in lagen en groepen"
+    title: "Plant herfst- en voorjaarsbollen op tijd in lagen en groepen"
     weeks: [39]
     start_year: 2026
     repeat_every_years: 1
@@ -123,7 +123,7 @@ items:
     tags: [opruimen, winterbescherming, planning]
     garden_types: [siertuin]
     body: |
-      Na de eerste nachtvorst zakt het bovengrondse deel snel in en wordt duidelijk welke knollen je wilt bewaren. Graaf voorzichtig uit, droog de knollen luchtig en berg alleen gave exemplaren overzichtelijk gelabeld op. Laat geen natte aarde en beschadigde stukken aan de opslagpartij zitten, want dan verspreidt rot zich snel. Een zorgvuldige lift geeft veel meer kans op goed uitgangsmateriaal voor volgend jaar.
+      Na de eerste nachtvorst zakt het bovengrondse deel snel in en wordt duidelijk welke knollen je wilt bewaren. Graaf voorzichtig uit, droog de knollen luchtig en berg alleen gave exemplaren overzichtelijk gelabeld op. Laat geen natte aarde en beschadigde stukken aan de opslagpartij zitten, want dan verspreidt rot zich snel. Zorgvuldig rooien geeft veel meer kans op goed uitgangsmateriaal voor volgend jaar.
   - id: eenjarigen-knollen-opslag-controleren
     title: "Controleer bewaarde knollen geregeld in de winter"
     weeks: [49, 52]

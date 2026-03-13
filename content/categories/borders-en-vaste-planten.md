@@ -4,7 +4,7 @@ category_title: "Borders en vaste planten"
 sort_order: 100
 items:
   - id: borders-winterstelen-laat-liggen
-    title: "Laat winterstelen staan tot het nieuwe groeiseizoen echt op gang komt"
+    title: "Laat oude stelen staan tot het nieuwe groeiseizoen echt op gang komt"
     weeks: [10]
     start_year: 2026
     repeat_every_years: 1
@@ -24,7 +24,7 @@ items:
     tags: [opruimen, controle, structuur]
     garden_types: [siertuin]
     body: |
-      Nu de eerste scheuten tonen waar de plant staat, kun je veiliger opruimen dan midden in de winter. Knip oude stelen terug, verwijder natte bladproppen en maak plekken vrij waar het nieuwe blad licht en lucht nodig heeft. Werk voorzichtig zodat jonge neuzen van bijvoorbeeld siergrassen of vaste planten niet worden afgeknapt. Een gerichte opruimbeurt laat de border weer helder lezen.
+      Nu de eerste scheuten tonen waar de plant staat, kun je veiliger opruimen dan midden in de winter. Knip oude stelen terug, verwijder natte bladproppen en maak plekken vrij waar het nieuwe blad licht en lucht nodig heeft. Werk voorzichtig zodat jonge neuzen van bijvoorbeeld siergrassen of vaste planten niet worden afgeknapt. Een gerichte opruimbeurt maakt de border weer overzichtelijk.
   - id: borders-pollen-delen
     title: "Deel te brede of kale pollen voordat ze vol wegschieten"
     weeks: [11]
@@ -48,7 +48,7 @@ items:
     body: |
       Veel vaste planten groeien nu snel recht omhoog en zijn later lastig nog netjes te ondersteunen. Plaats ringen, takkensteun of subtiele rastersteun vroeg zodat het gewas er rustig doorheen kan groeien. Let erop dat je niet pas ingrijpt wanneer planten al scheef liggen, want dan blijft steun vaak zichtbaar en geforceerd. Vroege steun houdt een border natuurlijker en rustiger in beeld.
   - id: borders-voorjaarsmulch
-    title: "Mulch open stukken in de border zodra de opkomst zichtbaar is"
+    title: "Mulch open stukken in de border zodra de planten goed zichtbaar zijn"
     weeks: [14]
     start_year: 2026
     repeat_every_years: 1
@@ -57,7 +57,7 @@ items:
     tags: [mulchen, onkruidbeheersing]
     garden_types: [siertuin]
     body: |
-      In de lente droogt kale grond snel uit en krijgen kiemende onkruiden veel voorsprong in nog open borders. Breng tussen duidelijk zichtbare planten een dunne laag mulch aan en laat jonge opkomst ruim vrij. Gebruik geen dikke laag die over kleine rozetten of vroege bolneuzen heen schuift. Met een rustige mulchlaag blijft de border later veel gelijkmatiger.
+      In de lente droogt kale grond snel uit en krijgen kiemende onkruiden veel voorsprong in nog open borders. Breng tussen duidelijk zichtbare planten een dunne laag mulch aan en laat jonge scheuten ruim vrij. Gebruik geen dikke laag die over kleine rozetten of vroege bolneuzen heen schuift. Met een dunne mulchlaag blijft de border later veel gelijkmatiger.
   - id: borders-slakken-en-jonge-scheuten
     title: "Let op slakken bij sappige jonge scheuten"
     weeks: [14, 17, 20]
@@ -68,7 +68,7 @@ items:
     tags: [plaagpreventie, controle]
     garden_types: [siertuin, biodiversiteit]
     body: |
-      Zacht voorjaarsweer kan uitbundige jonge groei combineren met veel slakkenactiviteit. Controleer vooral hosta achtige bladeren, jonge dahlia scheuten en andere zachte opkomst in de avond of vroege ochtend. Werk gericht en laat niet overal losse schuilhoopjes van afval of planken tussen de beplanting liggen. Vroege aandacht voorkomt dat sommige planten telkens opnieuw terug worden gezet.
+      Zacht voorjaarsweer kan uitbundige jonge groei combineren met veel slakkenactiviteit. Controleer vooral hosta-achtige bladeren, jonge scheuten van dahlia's en andere zachte opkomst in de avond of vroege ochtend. Werk gericht en laat niet overal losse schuilhoopjes van afval of planken tussen de beplanting liggen. Vroege aandacht voorkomt dat sommige planten telkens opnieuw terug worden gezet.
   - id: borders-zelfzaaiers-sturen
     title: "Stuur zelfzaaiers vroeg in plaats van later te moeten ruimen"
     weeks: [18, 21, 24]
@@ -81,7 +81,7 @@ items:
     body: |
       In deze weken zie je welke spontane zaailingen de border verrijken en welke juist te veel druk op het ontwerp zetten. Haal ongewenste zaailingen jong weg en laat alleen op passende plekken iets staan dat echt bij de sfeer en structuur past. Wacht niet tot alles groter is, want dan verstoor je bij het uitrekken ook omliggende planten. Gericht sturen houdt een border los en levendig zonder rommelig te worden.
   - id: borders-eerste-bloeigolf-opkuisen
-    title: "Knip de eerste bloeigolf gericht op voor herhaling of rust"
+    title: "Knip na de eerste bloeigolf gericht terug voor herbloei of rust"
     weeks: [23]
     start_year: 2026
     repeat_every_years: 1
@@ -145,7 +145,7 @@ items:
     tags: [controle, planning, structuur]
     garden_types: [siertuin]
     body: |
-      Nu de groei vertraagt kun je veel beter beoordelen waar de border dit jaar uit balans raakte. Noteer plekken met uitval, te sterke groeiers of blijvende gaten en bepaal of delen, verplaatsen of aanvullen later nodig is. Ga niet automatisch alles nu nog verplanten, zeker niet als kou en natte grond al dichterbij komen. Een rustige najaarslezing maakt volgende ingrepen gerichter en kleiner.
+      Nu de groei vertraagt kun je veel beter beoordelen waar de border dit jaar uit balans raakte. Noteer plekken met uitval, te sterke groeiers of blijvende gaten en bepaal of delen, verplaatsen of aanvullen later nodig is. Ga niet automatisch alles nu nog verplanten, zeker niet als kou en natte grond al dichterbij komen. Een goede najaarsronde maakt volgende ingrepen gerichter en kleiner.
   - id: borders-stengels-voor-winterbeeld-laten
     title: "Laat stevige stengels staan voor winterbeeld en fauna"
     weeks: [44]
@@ -167,5 +167,5 @@ items:
     tags: [winterbescherming, controle]
     garden_types: [siertuin]
     body: |
-      Sommige vaste planten hebben in de winter vooral last van een natte stilstaande kern en minder van kou op zich. Zorg dat water weg kan, trek nat blad iets van de kroon af en geef waar nodig een luchtige winterbedekking. Gebruik geen dichte natte deken die de plantvoet juist laat smetten. Een luchtige bescherming geeft meer kans op gezonde herstart in het voorjaar.
+      Sommige vaste planten hebben in de winter vooral last van een natte stilstaande kern en minder van kou op zich. Zorg dat water weg kan, trek nat blad iets van de kroon af en geef waar nodig een luchtige winterbedekking. Gebruik geen dichte natte deken die de plantvoet juist te nat houdt. Een luchtige bescherming geeft meer kans op gezonde herstart in het voorjaar.
 ---
