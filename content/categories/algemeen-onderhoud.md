@@ -13,9 +13,9 @@ items:
     tags: [controle, opruimen, structuur]
     garden_types: [alle]
     body: |
-      In de donkere winterweken laat harde wind snel zien waar bindmateriaal loszit, takken scheuren of potten verschuiven. Maak een rustige ronde langs bomen, hagen, klimplanten, potten en losse tuinmeubels en zet omgevallen of scheefgetrokken onderdelen meteen weer veilig. Let vooral op schurende takken, half losgetrokken palen en gebroken stukken die later meer schade of een onveilige situatie kunnen geven. Met zo een vroege controle blijft de tuin ordelijk en voorkom je dat kleine schade in het voorjaar grotere herstellingen vraagt.
+      In de donkere winterweken laat harde wind snel zien waar bindmateriaal loszit, takken scheuren of potten verschuiven. Maak een korte ronde langs bomen, hagen, klimplanten, potten en losse tuinmeubels en zet omgevallen of scheefgetrokken onderdelen meteen weer veilig. Let vooral op schurende takken, half losgetrokken palen en gebroken stukken die later meer schade of een onveilige situatie kunnen geven. Met zo'n vroege controle blijft de tuin ordelijk en voorkom je dat kleine schade in het voorjaar grotere herstelklussen vraagt.
   - id: algemeen-rustige-winterschoonmaak
-    title: "Werk rustige winterrommel weg zonder alles kaal te maken"
+    title: "Ruim winterrommel op zonder alles kaal te maken"
     weeks: [7]
     start_year: 2026
     repeat_every_years: 1
@@ -112,7 +112,7 @@ items:
     tags: [opruimen, mulchen, composteren]
     garden_types: [alle]
     body: |
-      Nu bomen en heesters veel blad loslaten, ligt er in korte tijd meer organisch materiaal dan de meeste tuinen direct kunnen opnemen. Veeg blad van gazon, paden en vijverranden af en gebruik schoon blad als dunne mulchlaag onder heesters, in lege vakken of voor bladcompost. Laat geen dikke natte pakketten op verharding of op lage wintergroene planten liggen, want daar ontstaan slipgevaar en verstikking. Door blad te sturen in plaats van weg te gooien werk je tegelijk aan netheid en kringloop.
+      Nu bomen en heesters veel blad loslaten, ligt er in korte tijd meer organisch materiaal dan de meeste tuinen direct kunnen opnemen. Veeg blad van gazon, paden en vijverranden af en gebruik schoon blad als dunne mulchlaag onder heesters, in lege vakken of voor bladcompost. Laat geen dikke natte pakketten op verharding of op lage groenblijvende planten liggen, want daar ontstaan slipgevaar en verstikking. Door blad te sturen in plaats van weg te gooien werk je tegelijk aan netheid en kringloop.
   - id: algemeen-gereedschap-en-voorraad
     title: "Controleer gereedschap en wintervoorraad op tijd"
     weeks: [48]
@@ -134,5 +134,5 @@ items:
     tags: [controle, planning]
     garden_types: [alle]
     body: |
-      Ook als er weinig actief werk is, verandert een tuin in de winter nog steeds door wind, nattigheid en vorst. Loop om de week een korte ronde, kijk of water goed wegloopt, zet omgevallen spullen terug en noteer waar je later structuur, mulch of steun wilt verbeteren. Let vooral op plekken waar plassen blijven staan of waar wintergroene planten tegen harde oostenwind in de verdrukking komen. Met zo een kleine routine begin je het volgende seizoen met minder verrassingen.
+      Ook als er weinig actief werk is, verandert een tuin in de winter nog steeds door wind, nattigheid en vorst. Loop om de week een korte ronde, kijk of water goed wegloopt, zet omgevallen spullen terug en noteer waar je later structuur, mulch of steun wilt verbeteren. Let vooral op plekken waar plassen blijven staan of waar groenblijvende planten tegen harde oostenwind in de verdrukking komen. Met zo'n kleine routine begin je het volgende seizoen met minder verrassingen.
 ---

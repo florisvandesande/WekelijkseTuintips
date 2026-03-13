@@ -57,7 +57,7 @@ items:
     tags: [watergeven, controle]
     garden_types: [siertuin]
     body: |
-      Planten tegen muren of onder overstek krijgen vaak veel minder regen dan je vanaf een afstand inschat. Controleer de bodem aan de voet en geef diep water wanneer die echt droog is, vooral bij jonge aanplant en potgebonden wortelzones. Let op verschrompelend blad en knopval, want dat zijn vroege signalen van muurdrukte en droogte. Gerichte bewatering houdt klimmers veel gelijkmatiger in groei.
+      Planten tegen muren of onder overstek krijgen vaak veel minder regen dan je vanaf een afstand inschat. Controleer de bodem aan de voet en geef diep water wanneer die echt droog is, vooral bij jonge aanplant en potgebonden wortelzones. Let op verschrompelend blad en knopval, want dat zijn vroege signalen van hitte en droogte. Gerichte bewatering houdt klimmers veel gelijkmatiger in groei.
   - id: klimplanten-zomerrem-op-woekeraars
     title: "Geef woekerende klimmers in de zomer een lichte rem"
     weeks: [28, 31, 34]

@@ -37,7 +37,7 @@ items:
     body: |
       In deze frisse weken profiteren koele groeiers van de nog vochtige bodem en hoeven ze niet te wachten op echte warmte. Zaai in rechte, duidelijke rijen, druk de grond licht aan en scherm het zaaisel desnoods af tegen duiven of muizen. Let erop dat de grond niet kletsnat is, want in koude natte aarde rotten zaden sneller weg. Met een vroege start oogst je eerder en houd je ruimte vrij voor een latere opvolgteelt.
   - id: moestuin-prei-en-ui-voorzaaien
-    title: "Zaai prei en plantuien vroeg voor onder gecontroleerde omstandigheden"
+    title: "Zaai prei en plantuien vroeg in bakken of trays"
     weeks: [8]
     start_year: 2026
     repeat_every_years: 1
@@ -147,7 +147,7 @@ items:
     body: |
       Nu koude nachten meestal minder scherp zijn, kunnen warmteminnende bladrijke planten echt naar buiten. Plant in goed gevoede grond, geef direct ruim water en laat rondom genoeg ruimte voor lucht en later bladvolume. Bescherm jonge planten tegen slakken en let op koude wind die het blad in de eerste dagen kan beschadigen. Met een ruime standplaats blijven planten gezonder en productiever.
   - id: moestuin-opvolgzaai-sla
-    title: "Zaai sla en andere snelle bladgewassen door voor opvolgoogst"
+    title: "Zaai sla en andere snelle bladgewassen door voor een doorlopende oogst"
     weeks: [18, 22, 26, 30]
     start_year: 2026
     repeat_every_years: 1
@@ -279,7 +279,7 @@ items:
     body: |
       In deze weken kun je per rij of plant beoordelen waar het loof terugloopt en de grond klaar is voor oogst. Licht eerst wat je direct wilt eten en houd later ruimte vrij voor een opvolgteelt of mulchlaag. Werk voorzichtig zodat knollen niet met de riek worden geraakt en laat geen beschadigde exemplaren tussen de gezonde liggen. Gefaseerd lichten geeft een beter gebruik van ruimte en oogstkwaliteit.
   - id: moestuin-tomatenblad-luchten
-    title: "Lucht tomatenplanten gericht door oud onderste blad weg te nemen"
+    title: "Haal oud onderste blad weg om tomatenplanten luchtiger te houden"
     weeks: [27, 31, 34]
     start_year: 2026
     repeat_every_years: 1
@@ -288,7 +288,7 @@ items:
     tags: [ziektepreventie, snoeien, controle]
     garden_types: [eetbaar]
     body: |
-      Naarmate de planten hoger en dichter worden, blijft vocht langer hangen rond de voet en onderste bladeren. Verwijder geleidelijk alleen het oude of zieke blad onder de laagste trossen en houd de plant verder in balans. Neem niet te veel in een keer weg, want blad is nog steeds nodig voor groei en bescherming van vruchten. Deze rustige luchtcorrectie helpt vooral bij een gezondere tomatenteelt.
+      Naarmate de planten hoger en dichter worden, blijft vocht langer hangen rond de voet en onderste bladeren. Verwijder geleidelijk alleen het oude of zieke blad onder de laagste trossen en houd de plant verder in balans. Neem niet te veel in een keer weg, want blad is nog steeds nodig voor groei en bescherming van vruchten. Deze lichte snoei helpt vooral bij een gezondere tomatenteelt.
   - id: moestuin-herfstteelten-zaaien
     title: "Zaai tijdig herfstteelten voor een tweede helft van het seizoen"
     weeks: [28, 30, 33]
@@ -334,7 +334,7 @@ items:
     body: |
       Wanneer een bed na de hoofdteelt langere tijd open blijft, verliest de bodem snel structuur en voeding. Zaai een passende groenbemester op een vlak zaaibed en houd de eerste opkomst kort in de gaten. Gebruik dit niet op plekken waar je nog laat wilt planten of waar hardnekkig onkruid eerst echt weg moet. Een bedekte bodem blijft luchtiger, schoner en makkelijker te beheren.
   - id: moestuin-bewaargewassen-oogsten
-    title: "Oogst bewaargewassen op een droge dag en leg ze rustig weg"
+    title: "Oogst bewaargewassen op een droge dag en berg ze netjes op"
     weeks: [38, 41, 44]
     start_year: 2026
     repeat_every_years: 1
@@ -345,7 +345,7 @@ items:
     body: |
       Nu herfstwortels, bieten en andere bewaargewassen op maat komen, bepaalt de oogstmanier sterk hoe lang ze goed blijven. Rooi voorzichtig, laat aarde opdrogen en sorteer beschadigde exemplaren direct uit zodat alleen gezonde groente de opslag in gaat. Oogst niet uit drijfnatte grond en laat gewassen niet onnodig in de felle zon liggen. Zorgvuldige oogst levert minder verlies en een veel rustiger voorraad op.
   - id: moestuin-bedden-met-compost-afsluiten
-    title: "Sluit lege bedden af met een rustige compost- of mulchlaag"
+    title: "Sluit lege bedden af met een dunne compost- of mulchlaag"
     weeks: [44]
     start_year: 2026
     repeat_every_years: 1
@@ -354,7 +354,7 @@ items:
     tags: [mulchen, composteren, bodemverbetering]
     garden_types: [eetbaar]
     body: |
-      Aan het einde van het seizoen liggen steeds meer bedden open en vraagt de bodem om bescherming. Verdeel een dunne laag rijpe compost, bladcompost of andere rustige bedekking over lege bedden en laat de bodem verder met rust. Laat geen ruwe hopen achter op plekken die in de winter nat blijven, want dat maakt het bed zwaarder en lastiger in het voorjaar. Met een zachte afsluiting blijft de moestuin net en vruchtbaar.
+      Aan het einde van het seizoen liggen steeds meer bedden open en vraagt de bodem om bescherming. Verdeel een dunne laag rijpe compost, bladcompost of andere lichte bedekking over lege bedden en laat de bodem verder met rust. Laat geen ruwe hopen achter op plekken die in de winter nat blijven, want dat maakt het bed zwaarder en lastiger in het voorjaar. Met een zachte afsluiting blijft de moestuin net en vruchtbaar.
   - id: moestuin-wintersla-beschermen
     title: "Bescherm late bladgewassen tegen de eerste scherpe nachten"
     weeks: [46]
@@ -389,7 +389,7 @@ items:
     body: |
       Nu veel bedden leeg raken is het een logisch moment om materiaal te verzamelen dat anders verspreid door de tuin blijft liggen. Maak stokken, gaas, labels en clips schoon, bundel ze per soort en berg alleen op wat nog bruikbaar is. Laat geen vervuilde of zieke resten op materiaal zitten, want dat neem je anders volgend jaar ongemerkt weer mee. Een nette opslag maakt het volgende voorjaar overzichtelijker en schoner.
   - id: moestuin-winterplanning-lege-vakken
-    title: "Gebruik lege wintervakken om rustig vooruit te plannen"
+    title: "Gebruik lege winterbedden om vooruit te plannen"
     weeks: [52]
     start_year: 2026
     repeat_every_years: 1
@@ -398,7 +398,7 @@ items:
     tags: [planning, controle]
     garden_types: [eetbaar]
     body: |
-      Aan het einde van het jaar is goed zichtbaar welke bedden productief waren en welke indeling onhandig bleek. Noteer per vak wat goed werkte met water, ruimte, opvolgteelten en plaagdruk en pas daar je plan voor het volgende jaar op aan. Kijk vooral naar structurele knelpunten zoals schaduw, teveel loopdruk of een bed dat steeds te nat blijft. Die rustige evaluatie helpt je om elk seizoen iets eenvoudiger en sterker te starten.
+      Aan het einde van het jaar is goed zichtbaar welke bedden productief waren en welke indeling onhandig bleek. Noteer per vak wat goed werkte met water, ruimte, opvolgteelten en plaagdruk en pas daar je plan voor het volgende jaar op aan. Kijk vooral naar structurele knelpunten zoals schaduw, te veel loopdruk of een bed dat steeds te nat blijft. Die evaluatie helpt je om elk seizoen iets eenvoudiger en sterker te starten.
   - id: moestuin-kruimellaag-na-regen-bewaken
     title: "Houd het zaaibed luchtig na voorjaarsregen"
     weeks: [11, 14, 17]
@@ -475,9 +475,9 @@ items:
     tags: [opruimen, ziektepreventie, controle]
     garden_types: [eetbaar]
     body: |
-      Aan het einde van het seizoen zakken tomaat, boon en courgette vaak snel in zodra koude nachten terugkeren. Haal uitgeputte en zachte gewassen weg zolang ze nog hanteerbaar zijn en scheid ziek materiaal meteen uit. Laat geen half verrotte plantenmassa staan, want die maakt bedden nodeloos nat en vergroot kans op schimmelverspreiding. Een tijdige afronding houdt de moestuin schoner en beter voorbereidt op winterzorg.
+      Aan het einde van het seizoen zakken tomaat, boon en courgette vaak snel in zodra koude nachten terugkeren. Haal uitgeputte en zachte gewassen weg zolang ze nog hanteerbaar zijn en scheid ziek materiaal meteen uit. Laat geen half verrotte plantenmassa staan, want die maakt bedden nodeloos nat en vergroot kans op schimmelverspreiding. Een tijdige afronding houdt de moestuin schoner en beter voorbereid op winterzorg.
   - id: moestuin-knol-en-kool-voorraad-keuren
-    title: "Keurt late oogst streng voordat die de opslag in gaat"
+    title: "Keur late oogst streng voordat die de opslag in gaat"
     weeks: [42]
     start_year: 2026
     repeat_every_years: 1

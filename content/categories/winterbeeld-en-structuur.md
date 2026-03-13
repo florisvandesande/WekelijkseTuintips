@@ -4,7 +4,7 @@ category_title: "Winterbeeld en structuur"
 sort_order: 200
 items:
   - id: winterbeeld-silhouetten-lezen
-    title: "Lees in de winter welke silhouetten de tuin echt dragen"
+    title: "Kijk in de winter welke vormen de tuin echt dragen"
     weeks: [4]
     start_year: 2026
     repeat_every_years: 1
@@ -15,7 +15,7 @@ items:
     body: |
       In de kale maanden zie je zonder afleiding welke lijnen, stammen, hagen en groenblijvende massa de tuin samenhouden. Loop de tuin rustig door en noteer waar het winterbeeld sterk is en waar juist gaten of onrust ontstaan. Grijp niet meteen in, maar gebruik deze stille fase vooral om goed te leren kijken. Zo worden latere keuzes beter afgestemd op de ontworpen structuur.
   - id: winterbeeld-zaadkoppen-bewaren
-    title: "Bewaar sterke zaadkoppen en winterstelen zolang ze waarde houden"
+    title: "Bewaar mooie zaadkoppen en stevige stelen zolang ze nog waarde hebben"
     weeks: [2, 5, 7, 10]
     start_year: 2026
     repeat_every_years: 1
@@ -81,7 +81,7 @@ items:
     body: |
       Herfst en vroege winter kunnen delen van de structuur beschadigen precies wanneer ze visueel het belangrijkst zijn. Verwijder kapot of onveilig materiaal, maar laat stabiele stelen, zaadkoppen en schermende massa staan waar dat nog kan. Werk niet vanuit de reflex om na schade alles meteen op te ruimen. Met een beheerste reactie blijft de tuin rijker en veiliger tegelijk.
   - id: winterbeeld-schors-en-stam-zichtbaar
-    title: "Houd mooie schors en stambeelden zichtbaar met lichte opschoning aan de voet"
+    title: "Houd mooie schors en stammen zichtbaar met lichte opschoning aan de voet"
     weeks: [49]
     start_year: 2026
     repeat_every_years: 1
@@ -90,7 +90,7 @@ items:
     tags: [structuur, opruimen]
     garden_types: [siertuin]
     body: |
-      In de donkere maanden dragen stammen en schors veel van de sfeer, vooral in ontworpen tuinen met duidelijke lijnen. Haal rommelige hopen blad of storende losse scheuten weg die die kwaliteiten verbergen, maar laat de bodem verder rustig bedekt. Maak geen kale poederzone rond elke stam en verstoor geen wortels. Een lichte opschoning laat winterkarakter veel sterker uitkomen.
+      In de donkere maanden dragen stammen en schors veel van de sfeer, vooral in ontworpen tuinen met duidelijke lijnen. Haal rommelige hopen blad of storende losse scheuten weg die die kwaliteiten verbergen, maar laat de bodem verder bedekt. Maak geen kale rand rond elke stam en verstoor geen wortels. Een lichte opschoning laat winterkarakter veel sterker uitkomen.
   - id: winterbeeld-natte-sneeuw-correctie
     title: "Corrigeer door natte sneeuw of rijp ingezakte planten heel voorzichtig"
     weeks: [49, 51, 53]

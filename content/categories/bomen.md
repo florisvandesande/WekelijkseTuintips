@@ -4,7 +4,7 @@ category_title: "Bomen"
 sort_order: 140
 items:
   - id: bomen-winterstructuur-check
-    title: "Lees de kroonstructuur van bomen in de bladloze periode"
+    title: "Kijk in de bladloze periode naar de kroonstructuur van bomen"
     weeks: [4]
     start_year: 2026
     repeat_every_years: 1
@@ -13,7 +13,7 @@ items:
     tags: [controle, structuur, planning]
     garden_types: [siertuin, biodiversiteit]
     body: |
-      Zonder blad is goed zichtbaar hoe takken zijn opgebouwd en waar wrijving of onbalans ontstaat. Loop bomen rustig na, noteer dode of schurende takken en bepaal of lichte vormsnoei of specialistisch werk later nodig is. Ga niet zelf grote takken weghalen wanneer omvang of hoogte twijfel geven. Een winterlezing helpt om bomen veilig en passend in schaal te houden.
+      Zonder blad is goed zichtbaar hoe takken zijn opgebouwd en waar wrijving of onbalans ontstaat. Loop bomen rustig na, noteer dode of schurende takken en bepaal of lichte vormsnoei of specialistisch werk later nodig is. Ga niet zelf grote takken weghalen wanneer omvang of hoogte twijfel geven. Zo kun je later veiliger en gerichter ingrijpen.
   - id: bomen-jonge-boombanden-bijstellen
     title: "Stel boombanden en palen van jonge bomen op tijd bij"
     weeks: [7]
@@ -46,7 +46,7 @@ items:
     tags: [mulchen, bodemverbetering, onkruidbeheersing]
     garden_types: [alle]
     body: |
-      In het voorjaar helpt een rustige boomspiegel tegen uitdroging en concurrentie van gras of onkruid. Maak de voet vrij en breng een luchtige mulchlaag aan die de stam niet raakt. Controleer meteen of er vraat, scheuren of beschadiging aan de bast zichtbaar zijn. Een nette boomspiegel ondersteunt zowel groei als een verzorgd beeld.
+      In het voorjaar helpt een vrije boomspiegel tegen uitdroging en concurrentie van gras of onkruid. Maak de voet vrij en breng een luchtige mulchlaag aan die de stam niet raakt. Controleer meteen of er vraat, scheuren of beschadiging aan de bast zichtbaar zijn. Een nette boomspiegel ondersteunt zowel groei als een verzorgd beeld.
   - id: bomen-vorstschade-op-uitloop
     title: "Controleer jonge uitloop na late kou"
     weeks: [16]
@@ -123,7 +123,7 @@ items:
     tags: [mulchen, opruimen, controle]
     garden_types: [alle]
     body: |
-      Onder bomen verzamelt blad zich vanzelf, maar niet elke ophoping werkt gunstig voor de wortelzone of omliggende beplanting. Gebruik een luchtige laag op de boomspiegel en haal dikke pakketten weg van gras, paden of lage wintergroene planten. Controleer dat de stamvoet vrij blijft en geen natte bladkraag krijgt. Zo benut je blad als hulpstof zonder problemen te maken.
+      Onder bomen verzamelt blad zich vanzelf, maar niet elke ophoping werkt gunstig voor de wortelzone of omliggende beplanting. Gebruik een luchtige laag op de boomspiegel en haal dikke pakketten weg van gras, paden of lage groenblijvende planten. Controleer dat de stamvoet vrij blijft en geen natte bladkraag krijgt. Zo benut je blad als mulch zonder problemen te maken.
   - id: bomen-winterhabitat-afwegen
     title: "Weeg in de winter af welk dode hout je laat en wat weg moet"
     weeks: [51]
@@ -134,5 +134,5 @@ items:
     tags: [habitat, controle, structuur]
     garden_types: [biodiversiteit, siertuin]
     body: |
-      Dood hout heeft ecologische waarde, maar niet elk stuk hoort veilig of mooi op dezelfde plek te blijven. Laat kleine veilige stukken waar dat past en haal alleen weg wat gevaarlijk hangt, schuurt of het kroonbeeld sterk verstoort. Maak onderscheid tussen waardevol rustig dood hout en takken die echt risico vormen. Met die afweging blijft de boom ecologisch rijk en tegelijk beheersbaar.
+      Dood hout heeft ecologische waarde, maar niet elk stuk hoort veilig of mooi op dezelfde plek te blijven. Laat kleine veilige stukken waar dat past en haal alleen weg wat gevaarlijk hangt, schuurt of het kroonbeeld sterk verstoort. Maak onderscheid tussen veilig dood hout en takken die echt risico vormen. Met die afweging blijft de boom ecologisch rijk en tegelijk beheersbaar.
 ---

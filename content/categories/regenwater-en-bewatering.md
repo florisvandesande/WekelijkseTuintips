@@ -57,7 +57,7 @@ items:
     tags: [watergeven, ziektepreventie]
     garden_types: [alle]
     body: |
-      Bij warm weer verdampt avond- of middagwater sneller of blijft het ongunstig lang op blad hangen. Geef daarom vroeg in de ochtend rustig aan de voet van de plant zodat bodem en wortels profiteren voordat de hitte oploopt. Vermijd nat blad bij dichte beplanting en controleer of droge mulch het water niet weg laat lopen. Dit ritme ondersteunt planten zonder extra schimmel- of verdampingsverlies.
+      Bij warm weer verdampt avond- of middagwater sneller of blijft het ongunstig lang op blad hangen. Geef daarom vroeg in de ochtend water aan de voet van de plant zodat bodem en wortels profiteren voordat de hitte oploopt. Vermijd nat blad bij dichte beplanting en controleer of droge mulch het water niet weg laat lopen. Dit ritme ondersteunt planten zonder extra schimmel- of verdampingsverlies.
   - id: water-diep-bij-heesters-en-bomen
     title: "Geef heesters en bomen bij droogte een langzame diepe beurt"
     weeks: [24, 29, 34]
@@ -101,7 +101,7 @@ items:
     tags: [watergeven, controle, winterbescherming]
     garden_types: [alle]
     body: |
-      Een droge herfst wordt vaak onderschat, terwijl planten dan nog steeds wortelen en vocht nodig hebben voor de winter. Geef groenblijvers, net geplante vaste planten en jonge houtige gewassen bij langdurig droog weer af en toe een rustige gietbeurt. Controleer dat water niet op uitgedroogde mulch blijft liggen maar echt de bodem bereikt. Met voldoende vocht gaan planten veel veerkrachtiger de koude maanden in.
+      Een droge herfst wordt vaak onderschat, terwijl planten dan nog steeds wortelen en vocht nodig hebben voor de winter. Geef groenblijvers, net geplante vaste planten en jonge houtige gewassen bij langdurig droog weer af en toe een bescheiden gietbeurt. Controleer dat water niet op uitgedroogde mulch blijft liggen maar echt de bodem bereikt. Met voldoende vocht gaan planten veel veerkrachtiger de koude maanden in.
   - id: water-systeem-winterklaar
     title: "Maak regenwaterpunten tijdig winterklaar"
     weeks: [47]
@@ -114,7 +114,7 @@ items:
     body: |
       Zodra nachtvorst waarschijnlijker wordt, kunnen kranen, slangen en tonnen makkelijk schade oplopen. Tap kwetsbare onderdelen af, koppel slangen los waar nodig en zet losse gieters en koppelingen vorstvrij of droog weg. Let op laagste punten in slangen en op vergeten aftakkingen waar water in blijft staan. Een korte wintercheck voorkomt onnodige vervanging in het voorjaar.
   - id: water-winterdroogte-groenblijvers
-    title: "Controleer wintergroene planten ook tijdens droge winterweken"
+    title: "Controleer groenblijvende planten ook tijdens droge winterweken"
     weeks: [2, 4, 6]
     start_year: 2026
     repeat_every_years: 1
@@ -123,5 +123,5 @@ items:
     tags: [watergeven, controle, winterbescherming]
     garden_types: [siertuin]
     body: |
-      Koude lucht droogt wintergroen soms sterker uit dan je op het eerste gezicht verwacht, zeker onder beschutte gevels. Controleer op een vorstvrije dag of de bodem rond potten, kuipplanten en groenblijvende heesters kurkdroog is en geef alleen dan beperkt water. Geef nooit op bevroren grond en voorkom dat potten vol water blijven staan. Deze kleine winterzorg voorkomt bruine randen en uitval in het voorjaar.
+      Koude lucht droogt groenblijvende planten soms sterker uit dan je op het eerste gezicht verwacht, zeker onder beschutte gevels. Controleer op een vorstvrije dag of de bodem rond potten, kuipplanten en groenblijvende heesters kurkdroog is en geef alleen dan beperkt water. Geef nooit op bevroren grond en voorkom dat potten vol water blijven staan. Deze kleine winterzorg voorkomt bruine randen en uitval in het voorjaar.
 ---

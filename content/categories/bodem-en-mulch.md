@@ -15,7 +15,7 @@ items:
     body: |
       Aan het einde van de winter zie je goed waar bodem te dicht, arm of schraal is geworden door gebruik of gebrek aan bedekking. Werk alleen op die plekken een dunne laag compost of organisch materiaal in de toplaag en laat goed functionerende delen met rust. Let erop dat je geen natte grond fijn stampt of diepe spading uitvoert, want daarmee breek je bodemstructuur sneller af dan je hem herstelt. Plaatselijk werken houdt de tuin rustiger en spaart bodemleven.
   - id: bodem-mulch-bessen-en-heesters
-    title: "Geef heesters en kleinfruit een voorjaarslaag mulch"
+    title: "Geef heesters en kleinfruit in het voorjaar een mulchlaag"
     weeks: [14]
     start_year: 2026
     repeat_every_years: 1
@@ -24,7 +24,7 @@ items:
     tags: [mulchen, bodemverbetering]
     garden_types: [alle]
     body: |
-      Nu de bodem opwarmt is een mulchlaag bijzonder waardevol voor vochtbehoud en gelijkmatige wortelactiviteit. Verwijder eerst kiemend onkruid en verdeel daarna compost, bladcompost of ander rustig organisch materiaal onder heesters en bessenstruiken. Houd een kleine vrije rand rond stammen en takvoeten zodat de basis droog en luchtig blijft. Een goede mulchlaag maakt de zomer rustiger en ondersteunt tegelijk bodemleven.
+      Nu de bodem opwarmt is een mulchlaag bijzonder waardevol voor vochtbehoud en gelijkmatige wortelactiviteit. Verwijder eerst kiemend onkruid en verdeel daarna compost, bladcompost of ander organisch materiaal onder heesters en bessenstruiken. Houd een kleine vrije rand rond stammen en takvoeten zodat de basis droog en luchtig blijft. Een goede mulchlaag maakt de zomer rustiger en ondersteunt tegelijk bodemleven.
   - id: bodem-border-toplaag-voeden
     title: "Geef borders een dunne voedende toplaag"
     weeks: [14]
@@ -101,9 +101,9 @@ items:
     tags: [mulchen, bodemverbetering, winterbescherming]
     garden_types: [alle]
     body: |
-      Nu temperaturen dalen en regen vaker terugkomt, profiteert open bodem van een zachte beschermlaag. Bedek lege plekken, nieuwe aanplant en kwetsbare groentebedden met bladcompost, fijne houtsnippers of ander rustig organisch materiaal. Leg de laag niet tegen wintergroene rozetten of natte stengels aan, want daar kan rot ontstaan. Zo gaat de bodem bedekt, vochtiger en levenser de winter in.
+      Nu temperaturen dalen en regen vaker terugkomt, profiteert open bodem van een zachte beschermlaag. Bedek lege plekken, nieuwe aanplant en kwetsbare groentebedden met bladcompost, fijne houtsnippers of ander organisch materiaal. Leg de laag niet tegen wintergroene rozetten of natte stengels aan, want daar kan rot ontstaan. Zo gaat de bodem bedekt, vochtiger en levendiger de winter in.
   - id: bodem-blad-als-toplaag
-    title: "Gebruik schoon herfstblad als rustige toplaag"
+    title: "Gebruik schoon herfstblad als dunne toplaag"
     weeks: [44]
     start_year: 2026
     repeat_every_years: 1
@@ -112,7 +112,7 @@ items:
     tags: [mulchen, composteren, habitat]
     garden_types: [alle]
     body: |
-      Herfstblad is een van de eenvoudigste manieren om organische stof terug te brengen zonder extra aankopen. Gebruik fijn en gezond blad als dunne laag onder heesters, tussen vaste planten of op lege bedden waar het rustig kan verteren. Controleer wel of dikke natte pakketten niet gaan glijden of tegen lage planten aankoeken. Het resultaat is een stillere winterbodem en minder verlies van voedingsstoffen.
+      Herfstblad is een van de eenvoudigste manieren om organische stof terug te brengen zonder extra aankopen. Gebruik fijn en gezond blad als dunne laag onder heesters, tussen vaste planten of op lege bedden waar het langzaam kan verteren. Controleer wel of dikke natte pakketten niet gaan glijden of tegen lage planten aankoeken. Het resultaat is een rustigere winterbodem en minder verlies van voedingsstoffen.
   - id: bodem-winter-kale-plekken
     title: "Controleer in de winter of geen stukken bodem onnodig kaal blijven"
     weeks: [51]

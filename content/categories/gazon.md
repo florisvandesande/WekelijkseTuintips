@@ -4,7 +4,7 @@ category_title: "Gazon"
 sort_order: 160
 items:
   - id: gazon-winterverdichting-lezen
-    title: "Lees in het voorjaar waar het gazon nat, schraal of verdicht uit de winter komt"
+    title: "Kijk in het voorjaar waar het gazon nat, schraal of verdicht uit de winter komt"
     weeks: [11]
     start_year: 2026
     repeat_every_years: 1
@@ -13,7 +13,7 @@ items:
     tags: [controle, planning]
     garden_types: [alle]
     body: |
-      Zodra het gras weer iets gaat groeien, zie je goed welke delen te lijden hadden onder schaduw, loopdruk of winterwater. Loop het gazon rustig af en noteer kale banen, zachte plekken, mosstroken en routes die structureel zwaar belast worden. Ga niet meteen overal ingrijpen zolang de bodem nog nat en kwetsbaar is. Een heldere eerste lezing maakt latere herstelkeuzes veel beter.
+      Zodra het gras weer iets gaat groeien, zie je goed welke delen te lijden hadden onder schaduw, loopdruk of winterwater. Loop het gazon rustig af en noteer kale banen, zachte plekken, mosstroken en routes die structureel zwaar belast worden. Ga niet meteen overal ingrijpen zolang de bodem nog nat en kwetsbaar is. Een heldere eerste ronde maakt latere herstelkeuzes veel beter.
   - id: gazon-eerste-maaibeurt
     title: "Begin met een eerste hoge maaibeurt"
     weeks: [13]
@@ -24,7 +24,7 @@ items:
     tags: [controle, structuur]
     garden_types: [alle]
     body: |
-      Wanneer het gras weer actief groeit, is een eerste maaibeurt nuttig om licht en lucht te geven zonder het direct te verzwakken. Maai hoog en alleen wanneer het gazon droog genoeg is om niet te smetten of in sporen uiteen te vallen. Controleer of messen scherp zijn, want rafelig gemaaid gras vergeelt sneller. Een rustige start geeft een sterker en gelijkmatiger gazon.
+      Wanneer het gras weer actief groeit, is een eerste maaibeurt nuttig om licht en lucht te geven zonder het direct te verzwakken. Maai hoog en alleen wanneer het gazon droog genoeg is om niet te plakken of sporen te trekken. Controleer of messen scherp zijn, want rafelig gemaaid gras vergeelt sneller. Een rustige start geeft een sterker en gelijkmatiger gazon.
   - id: gazon-schaduwmos-aanpakken
     title: "Pak schaduw en mos aan door lucht en licht te verbeteren, niet alleen door te harken"
     weeks: [16]
