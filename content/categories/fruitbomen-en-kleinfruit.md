@@ -37,7 +37,7 @@ items:
     body: |
       In de late winter zie je bij bessenstruiken precies welke oude, zwakke of schurende takken de plant dicht maken. Neem de oudste of laagste takken weg en bewaar een open basis met sterke jonge vervangscheuten. Knip niet alles kort terug, want een te harde snoei geeft veel blad maar minder evenwichtige vruchtzetting. Een luchtige struik is makkelijker te oogsten en minder vatbaar voor schimmel.
   - id: fruit-mulch-en-voeding-bessen
-    title: "Geef bessenstruiken en fruitbomen een rustige voorjaarslaag"
+    title: "Geef bessenstruiken en fruitbomen een dunne voorjaarslaag"
     weeks: [14]
     start_year: 2026
     repeat_every_years: 1
@@ -46,7 +46,7 @@ items:
     tags: [mulchen, bemesten, bodemverbetering]
     garden_types: [eetbaar]
     body: |
-      Nu de wortelactiviteit op gang komt helpt een rustige toplaag om vocht en voeding gelijkmatiger beschikbaar te houden. Verdeel compost of andere organische mulch rond de wortelzone en houd de stam of takbasis vrij. Let erop dat je geen dikke hoop direct tegen de bast legt, want daar blijft ongewenst vocht hangen. Met een zachte voorjaarslaag ondersteun je zowel groei als bodemleven.
+      Nu de wortelactiviteit op gang komt helpt een dunne toplaag om vocht en voeding gelijkmatiger beschikbaar te houden. Verdeel compost of andere organische mulch rond de wortelzone en houd de stam of takbasis vrij. Let erop dat je geen dikke hoop direct tegen de bast legt, want daar blijft ongewenst vocht hangen. Met een zachte voorjaarslaag ondersteun je zowel groei als bodemleven.
   - id: fruit-bloesem-op-vorst-controleren
     title: "Controleer bloesem en jonge vruchtzetting na koude nachten"
     weeks: [12, 14, 16]
@@ -68,7 +68,7 @@ items:
     tags: [controle, planning]
     garden_types: [eetbaar]
     body: |
-      Na een rijke bloei kan een boom meer vruchten zetten dan hij netjes kan uitgroeien of dragen. Neem kleine of misvormde vruchten weg waar trossen te dicht op elkaar zitten, vooral bij jonge bomen of zwakkere takken. Let erop dat je gezonde vruchthoutsporen niet beschadigt en laat overal nog voldoende blad rond de vruchten staan. Selectief dunnen geeft vaak mooiere vruchten en minder takbreuk.
+      Na een rijke bloei kan een boom meer vruchten zetten dan hij netjes kan uitgroeien of dragen. Neem kleine of misvormde vruchten weg waar trossen te dicht op elkaar zitten, vooral bij jonge bomen of zwakkere takken. Let erop dat je gezonde vruchttakken niet beschadigt en laat overal nog voldoende blad rond de vruchten staan. Selectief dunnen geeft vaak mooiere vruchten en minder takbreuk.
   - id: fruit-nieuwe-scheuten-leiden
     title: "Leid nieuwe scheuten in leivormen en kleinfruit tijdig"
     weeks: [19, 22, 25]
@@ -90,7 +90,7 @@ items:
     tags: [controle, vogels, oogsten]
     garden_types: [eetbaar, biodiversiteit]
     body: |
-      Zodra vruchten verkleuren, zijn vogels er vaak sneller bij dan je denkt. Span bescherming alleen waar echt nodig en zorg dat netten strak en veilig zitten zodat dieren er niet in verstrikt raken. Controleer dagelijks of er nergens open lussen of ingezakte stukken ontstaan. Met tijdige en zorgvuldige bescherming houd je oogst over zonder onnodige risico s voor fauna.
+      Zodra vruchten verkleuren, zijn vogels er vaak sneller bij dan je denkt. Span bescherming alleen waar echt nodig en zorg dat netten strak en veilig zitten zodat dieren er niet in verstrikt raken. Controleer dagelijks of er nergens open lussen of ingezakte stukken ontstaan. Met tijdige en zorgvuldige bescherming houd je oogst over zonder onnodige risico's voor fauna.
   - id: fruit-aardbeien-uitlopers-beperken
     title: "Beperk uitlopers van zomerdragende aardbeien tijdens de productie"
     weeks: [22, 25, 27, 30]
@@ -222,9 +222,9 @@ items:
     tags: [mulchen, bodemverbetering]
     garden_types: [eetbaar]
     body: |
-      Na een lang oogstseizoen is de bodem onder bessenstruiken vaak opener en droger dan gewenst. Breng een rustige laag bladcompost of ander organisch materiaal aan zonder de voet van de struik op te sluiten. Kijk of er geen oud ziek blad of rot fruit onder de struiken achterblijft voordat je mulch aanbrengt. Een herfstlaag helpt de wortelzone beschermd en actief de winter in.
+      Na een lang oogstseizoen is de bodem onder bessenstruiken vaak opener en droger dan gewenst. Breng een dunne laag bladcompost of ander organisch materiaal aan zonder de voet van de struik op te sluiten. Kijk of er geen oud ziek blad of rot fruit onder de struiken achterblijft voordat je mulch aanbrengt. Een herfstlaag helpt de wortelzone beschermd en actief de winter in.
   - id: fruit-bladval-gezondheidscontrole
-    title: "Controleer tijdens bladval op canker, wondjes en dode twijgen"
+    title: "Controleer tijdens bladval op bastkanker, wondjes en dode twijgen"
     weeks: [41, 44, 47]
     start_year: 2026
     repeat_every_years: 1
@@ -235,7 +235,7 @@ items:
     body: |
       Wanneer bladeren dunner worden, zijn beschadigingen en zwakke twijgen ineens veel beter zichtbaar. Markeer probleemplekken, haal duidelijk dood hout weg en plan grotere correcties voor een geschikt later moment. Knip niet onnodig groot in nat herfstweer, maar laat signalen ook niet tot de winter onbeoordeeld zitten. Een goede najaarscontrole maakt wintersnoei en voorjaarszorg veel gerichter.
   - id: fruit-winterbeeld-van-bomen-lezen
-    title: "Lees in de winter de vorm van fruitbomen en noteer rustige verbeterpunten"
+    title: "Kijk in de winter naar de vorm van fruitbomen en noteer verbeterpunten"
     weeks: [51]
     start_year: 2026
     repeat_every_years: 1
@@ -246,7 +246,7 @@ items:
     body: |
       Na bladval wordt helder hoe kroon, leivorm en vruchthout zich dit jaar hebben ontwikkeld. Loop bomen en struiken rustig na en noteer waar later lichte snoei, nieuwe steun of betere spreiding gewenst is. Laat je niet verleiden om direct van alles te knippen in slecht weer of zonder duidelijk doel. Door eerst te kijken en dan pas te handelen blijft fruitonderhoud veel consistenter.
   - id: fruit-bloesemondersteuning-door-open-hart
-    title: "Houd het hart van bessenstruiken luchtig richting bloei"
+    title: "Houd bessenstruiken open richting bloei"
     weeks: [18]
     start_year: 2026
     repeat_every_years: 1
@@ -268,7 +268,7 @@ items:
     body: |
       Na de hoofdoogst kan een aardbeibed rommelig en vatbaar voor schimmel worden. Verwijder oud ziek blad, knip overtollige uitlopers weg en laat gezonde jonge groei staan zodat het bed kan herstellen. Neem niet alle blad weg en beschadig de harten van de planten niet. Een selectieve opruimbeurt geeft een gezonder bed voor het volgende jaar.
   - id: fruit-bramen-leiden
-    title: "Leid bramen en doornloze rankers vroeg zodat oogstbaar hout overzichtelijk blijft"
+    title: "Leid bramen vroeg zodat oude en nieuwe ranken overzichtelijk blijven"
     weeks: [20, 23, 25, 28]
     start_year: 2026
     repeat_every_years: 1
@@ -277,7 +277,7 @@ items:
     tags: [leiden, aanbinden, structuur]
     garden_types: [eetbaar]
     body: |
-      Rankende kleinfruitgewassen maken nu veel lange scheuten die later lastig te ontwarren zijn. Leid nieuwe ranken apart van dragend hout en bind ze losjes vast op een manier die later snoei eenvoudig maakt. Let op scherpe bochten en op scheuten die over paden of door andere planten gaan trekken. Met vroege leiding blijft het vak luchtig en bruikbaar.
+      Rankende kleinfruitgewassen maken nu veel lange scheuten die later lastig te ontwarren zijn. Leid nieuwe ranken apart van de ranken die dit jaar vrucht dragen en bind ze losjes vast op een manier die later snoei eenvoudig maakt. Let op scherpe bochten en op scheuten die over paden of door andere planten gaan trekken. Met vroege leiding blijft het vak luchtig en bruikbaar.
   - id: fruit-hornets-wespenschade-volgen
     title: "Volg late vruchten extra op wespenschade en scheurtjes"
     weeks: [33, 36, 39]
@@ -299,9 +299,9 @@ items:
     tags: [onkruidbeheersing, mulchen, controle]
     garden_types: [eetbaar]
     body: |
-      Jonge fruitbomen hebben baat bij een rustige, concurrerende vrije wortelzone in hun eerste productieve jaren. Haal gras en hardnekkig onkruid weg rond de stam en werk daarna met een luchtige mulchlaag die niet tegen de bast komt. Controleer meteen op vraat, schurende boombanden en uitdrogende kale grond. Een nette stamkring maakt groei rustiger en onderhoud eenvoudiger.
+      Jonge fruitbomen hebben in hun eerste productieve jaren baat bij een open wortelzone zonder concurrentie. Haal gras en hardnekkig onkruid weg rond de stam en werk daarna met een luchtige mulchlaag die niet tegen de bast komt. Controleer meteen op vraat, schurende boombanden en uitdrogende kale grond. Een nette stamkring maakt groei rustiger en onderhoud eenvoudiger.
   - id: fruit-jonge-stam-en-schors-kijken
-    title: "Controleer jonge stammen op wondjes en zon of vorstschade"
+    title: "Controleer jonge stammen op wondjes en zon- of vorstschade"
     weeks: [4]
     start_year: 2026
     repeat_every_years: 1
@@ -310,5 +310,5 @@ items:
     tags: [controle, winterbescherming]
     garden_types: [eetbaar]
     body: |
-      In de bladloze periode vallen kleine bastbeschadigingen veel beter op dan later in het volle blad. Kijk of boombanden, konijnenvraat, schuurplekken of scheuren aandacht vragen en bescherm jonge stammen zo nodig beter. Doe alleen een rustige inspectie en laat grote ingrepen aan de kroon voor geschikt snoeiweer. Vroege signalering voorkomt dat schade onopgemerkt groter wordt.
+      In de bladloze periode vallen kleine bastbeschadigingen veel beter op dan later in het volle blad. Kijk of boombanden, konijnenvraat, schuurplekken of scheuren aandacht vragen en bescherm jonge stammen zo nodig beter. Doe alleen een korte inspectie en laat grote ingrepen aan de kroon voor geschikt snoeiweer. Vroege signalering voorkomt dat schade onopgemerkt groter wordt.
 ---

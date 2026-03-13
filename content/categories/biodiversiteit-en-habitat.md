@@ -13,9 +13,9 @@ items:
     tags: [habitat, vogels, controle]
     garden_types: [biodiversiteit]
     body: |
-      Ook in koude weken blijven vogels baat hebben bij schoon drink en badwater zolang het veilig bereikbaar is. Ververs het water geregeld, maak de schaal schoon en zet ze zo neer dat vogels overzicht houden op hun omgeving. Laat geen gladde rand, diep water of vuile aanslag ontstaan. Een eenvoudige waterplek ondersteunt veel winterbezoekers direct.
+      Ook in koude weken blijven vogels baat hebben bij schoon drink- en badwater zolang het veilig bereikbaar is. Ververs het water geregeld, maak de schaal schoon en zet ze zo neer dat vogels overzicht houden op hun omgeving. Laat geen gladde rand, diep water of vuile aanslag ontstaan. Een eenvoudige waterplek ondersteunt veel winterbezoekers direct.
   - id: habitat-wintervoederplek-hygiene
-    title: "Houd wintervoederplekken alleen schoon en bescheiden in gebruik"
+    title: "Houd wintervoederplekken schoon en gebruik ze bescheiden"
     weeks: [1, 5, 8]
     start_year: 2026
     repeat_every_years: 1
@@ -24,7 +24,7 @@ items:
     tags: [habitat, vogels, controle]
     garden_types: [biodiversiteit]
     body: |
-      Wanneer je in strenge of schaarse perioden voert, is hygiene belangrijker dan de hoeveelheid. Geef beperkt, maak voedersilo of schaal geregeld schoon en ruim nat of beschimmeld voer direct weg. Laat geen hoopjes voer op natte grond liggen waar ratten of ziekte zich kunnen verzamelen. Zo blijft extra winterzorg ondersteunend in plaats van belastend.
+      Wanneer je in strenge of schaarse perioden voert, is hygiëne belangrijker dan de hoeveelheid. Geef beperkt, maak voedersilo of schaal geregeld schoon en ruim nat of beschimmeld voer direct weg. Laat geen hoopjes voer op natte grond liggen waar ratten of ziekte zich kunnen verzamelen. Zo blijft extra winterzorg ondersteunend in plaats van belastend.
   - id: habitat-bijendrinkplek-voorjaar
     title: "Zet ondiepe insectenwaterpunten klaar voordat droge dagen beginnen"
     weeks: [12]
@@ -46,7 +46,7 @@ items:
     tags: [habitat, bestuivers, controle]
     garden_types: [biodiversiteit]
     body: |
-      Vroeg in het jaar zie je goed welke nestblokken nog bruikbaar, droog en veilig zijn voor metselbijen. Maak los vuil weg, vervang beschimmelde of gescheurde delen en hang blokken stevig, droog en zonnig terug. Gebruik geen nat of scherp materiaal waarin gangen instorten of water vasthouden. Goed onderhoud maakt zo een voorziening veel waardevoller dan zomaar laten hangen.
+      Vroeg in het jaar zie je goed welke nestblokken nog bruikbaar, droog en veilig zijn voor metselbijen. Maak los vuil weg, vervang beschimmelde of gescheurde delen en hang blokken stevig, droog en zonnig terug. Gebruik geen nat of scherp materiaal waarin gangen instorten of water vasthouden. Goed onderhoud maakt zo'n voorziening veel waardevoller dan zomaar laten hangen.
   - id: habitat-egelplek-rustig-houden
     title: "Houd egelhoeken en ruige schuilplekken in het voorjaar zo rustig mogelijk"
     weeks: [10, 13, 16]
@@ -68,7 +68,7 @@ items:
     tags: [habitat, bestuivers, planning]
     garden_types: [biodiversiteit]
     body: |
-      Tijdens de eerste actieve weken van insecten valt snel op welke delen van de tuin al leven trekken en welke juist stil blijven. Noteer rustige verbeterkansen zoals extra bloei in een bepaald seizoen, meer dekking of een tweede waterpunt in een droge hoek. Maak van elke observatie niet meteen een project, maar werk met enkele logische verbeteringen. Zo groeit biodiversiteitszorg mee met de bestaande tuinstructuur.
+      Tijdens de eerste actieve weken van insecten valt snel op welke delen van de tuin al leven trekken en welke juist stil blijven. Noteer duidelijke verbeterkansen zoals extra bloei in een bepaald seizoen, meer dekking of een tweede waterpunt in een droge hoek. Maak van elke observatie niet meteen een project, maar werk met enkele logische verbeteringen. Zo groeit biodiversiteitszorg mee met de bestaande tuinstructuur.
   - id: habitat-vogelbad-zomerhygiene
     title: "Maak vogelbaden en schalen in de zomer vaker schoon"
     weeks: [24, 29, 34]
@@ -123,7 +123,7 @@ items:
     tags: [habitat, vogels, structuur]
     garden_types: [biodiversiteit]
     body: |
-      Later in het jaar verschuift de waarde van veel planten van bloei naar voedsel en dekking. Laat zaadkoppen, bessen en some uitgebloeide stengels staan waar ze niet direct storen of omvallen. Ruim alleen weg wat echt ziek is of paden blokkeert. Zo blijft de tuin langer bruikbaar voor vogels en andere dieren.
+      Later in het jaar verschuift de waarde van veel planten van bloei naar voedsel en dekking. Laat zaadkoppen, bessen en sommige uitgebloeide stengels staan waar ze niet direct storen of omvallen. Ruim alleen weg wat echt ziek is of paden blokkeert. Zo blijft de tuin langer bruikbaar voor vogels en andere dieren.
   - id: habitat-vogelkast-schoonmaken
     title: "Maak nestkasten schoon na het broedseizoen"
     weeks: [39]
@@ -145,7 +145,7 @@ items:
     tags: [habitat, bestuivers, controle]
     garden_types: [biodiversiteit]
     body: |
-      Tijdens warme maanden vallen loshangende, nat geworden of beschadigde nestblokken snel uit elkaar. Controleer bevestiging, beschutting en waterinslag en vervang alleen wat echt versleten of schimmelig is. Stoordeel bezette gangen niet onnodig en verplaats blokken niet zonder reden. Beperkt onderhoud houdt de voorziening veilig zonder verstoring.
+      Tijdens warme maanden vallen loshangende, nat geworden of beschadigde nestblokken snel uit elkaar. Controleer bevestiging, beschutting en waterinslag en vervang alleen wat echt versleten of schimmelig is. Stoor bezette gangen niet onnodig en verplaats blokken niet zonder reden. Beperkt onderhoud houdt de voorziening veilig zonder verstoring.
   - id: habitat-extra-waterpunt-optie
     title: "Voeg bij extreme droogte gerust een extra waterpunt toe"
     weeks: [26, 29, 31, 34]
@@ -158,7 +158,7 @@ items:
     body: |
       Tijdens extreme droogte is een tweede eenvoudige waterplek soms waardevoller dan allerlei ingewikkelde ingrepen. Plaats een lage schaal of ondiep bakje op een veilige zichtplek, vul het geregeld bij en houd het schoon. Zet het niet pal naast een hinderlaag voor katten en laat het niet veranderen in stilstaand vuil water. Deze optionele aanvulling kan veel leven door een droge periode helpen.
   - id: habitat-blad-en-takkenhoek-opbouwen
-    title: "Bouw in de herfst een luchtige blad en takkenhoek op"
+    title: "Bouw in de herfst een luchtige blad- en takkenhoek op"
     weeks: [44]
     start_year: 2026
     repeat_every_years: 1
@@ -178,7 +178,7 @@ items:
     tags: [habitat, controle]
     garden_types: [biodiversiteit]
     body: |
-      Voor de winter begint is dit een goed moment om te zien of schuilplekken nog veilig en bruikbaar zijn. Kijk of de ingang vrij is, het dak droog ligt en of er rondom genoeg rustige dekking aanwezig blijft. Verplaats zo een schuilplek niet onnodig en maak hem niet helemaal open uit nieuwsgierigheid. Een droge, stille plek geeft veel meer kans op daadwerkelijk gebruik.
+      Voor de winter begint is dit een goed moment om te zien of schuilplekken nog veilig en bruikbaar zijn. Kijk of de ingang vrij is, het dak droog ligt en of er rondom genoeg rustige dekking aanwezig blijft. Verplaats zo'n schuilplek niet onnodig en maak hem niet helemaal open uit nieuwsgierigheid. Een droge, stille plek geeft veel meer kans op daadwerkelijk gebruik.
   - id: habitat-winterwater-blijvend
     title: "Blijf ook in late herfst en winter waterpunten controleren"
     weeks: [49, 51, 53]
@@ -189,9 +189,9 @@ items:
     tags: [habitat, vogels, controle]
     garden_types: [biodiversiteit]
     body: |
-      Wanneer natuurlijke plassen en zachte randen verdwijnen, worden eenvoudige waterpunten opnieuw belangrijk. Houd schalen schoon, ververs water op vorstvrije momenten en zorg dat dieren veilig kunnen landen en drinken. Laat geen dikke ijsrand of vervuiling ontstaan waardoor de schaal eerder schade doet dan helpt. Doorlopende zorg maakt zo een klein punt tot een betrouwbare wintervoorziening.
+      Wanneer natuurlijke plassen en zachte randen verdwijnen, worden eenvoudige waterpunten opnieuw belangrijk. Houd schalen schoon, ververs water op vorstvrije momenten en zorg dat dieren veilig kunnen landen en drinken. Laat geen dikke ijsrand of vervuiling ontstaan waardoor de schaal eerder schade doet dan helpt. Doorlopende zorg maakt zo'n klein waterpunt tot een betrouwbare wintervoorziening.
   - id: habitat-nestmateriaal-en-dekking-laten
-    title: "Laat geschikte dekking en wat los nestmateriaal op passende plekken aanwezig"
+    title: "Laat op passende plekken wat dekking en los nestmateriaal liggen"
     weeks: [17, 21, 24, 28]
     start_year: 2026
     repeat_every_years: 1

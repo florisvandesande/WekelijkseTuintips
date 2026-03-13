@@ -26,7 +26,7 @@ items:
     body: |
       Bij verouderde heesters werkt verjonging beter in rustige stappen dan in een harde eenmalige kaalslag. Haal enkele oude stelen bij de basis weg en laat tegelijk genoeg jong dragend hout staan om het beeld te bewaren. Let op de bloeiwijze van de soort zodat je niet onnodig het hele seizoen wegknipt. Gefaseerd verjongen houdt heesters leesbaar en gezond.
   - id: heesters-mulch-na-snoei
-    title: "Geef heesters na snoei een rustige mulchlaag"
+    title: "Geef heesters na snoei een dunne mulchlaag"
     weeks: [14]
     start_year: 2026
     repeat_every_years: 1
@@ -81,7 +81,7 @@ items:
     body: |
       In de zomer kunnen sommige heesters een route te smal maken zonder dat de hele vorm aangepast hoeft te worden. Neem alleen uitstekende of schurende scheuten weg en laat de natuurlijke opbouw verder intact. Controleer of je geen jonge bloemknoppen of bessenmassa weghaalt die later nog sierwaarde heeft. Zo blijft de doorgang bruikbaar zonder dat de heester kunstmatig oogt.
   - id: heesters-najaarslezing
-    title: "Lees in het najaar welke heesters uit vorm of schaal zijn geraakt"
+    title: "Kijk in het najaar welke heesters uit vorm of proportie zijn geraakt"
     weeks: [43]
     start_year: 2026
     repeat_every_years: 1

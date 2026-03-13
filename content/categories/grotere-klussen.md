@@ -15,7 +15,7 @@ items:
     body: |
       In de late winter kun je grotere onderhoudsklussen nog rustig voorbereiden zonder dat paden en plantvakken al dicht zijn gegroeid. Bepaal welke delen van de tuin extra compost, houtsnippers, kantopsluiting of palen nodig hebben en laat materiaal tijdig leveren. Kijk goed waar je spullen kunt lossen zonder nat gazon, jonge bollen of kwetsbare borderstructuur kapot te rijden. Een goede voorbereiding voorkomt haastwerk zodra het groeiseizoen echt begint.
   - id: grote-klussen-borders-herverdelen
-    title: "Verdeel te volle of scheef gegroeide borderdelen in een grotere werkgang"
+    title: "Verdeel te volle of scheef gegroeide borderdelen in een grotere klus"
     weeks: [10]
     start_year: 2026
     repeat_every_years: 1
@@ -48,7 +48,7 @@ items:
     body: |
       Voor het droge seizoen begint is het zinvol om wateropvang en slangen grondig na te kijken in plaats van pas bij de eerste hittegolf. Maak tonnen schoon, spoel slangen door en vervang lekkende koppelingen of kapotte kranen zodat opgeslagen water straks echt bruikbaar is. Controleer meteen of overloop en afvoer vrij blijven, want stilstaand vuil water geeft geur, muggen en verlies van opvangcapaciteit. Een grote beurt in het voorjaar bespaart veel improvisatie in de zomer.
   - id: grote-klussen-mulchronde
-    title: "Pak de grote mulchronde per tuindeel aan"
+    title: "Pak de grote mulchronde per deel van de tuin aan"
     weeks: [14]
     start_year: 2026
     repeat_every_years: 1
@@ -59,7 +59,7 @@ items:
     body: |
       Wanneer de bodem opwarmt maar nog niet kurkdroog is, blijft een nieuwe mulchlaag het langst effectief. Werk per border, moestuinvak of heesterrand, verwijder eerst wortelonkruid en breng daarna een gelijkmatige laag geschikt organisch materiaal aan. Laat mulch niet tegen stammen, kroonharten of jonge zaailingen aandrukken, omdat daar juist rot en vraat kunnen ontstaan. Door deze grotere klus in delen af te werken houd je overzicht en kwaliteit.
   - id: grote-klussen-zomer-correcties
-    title: "Gebruik de nazomer voor grotere correcties in steunwerk en routing"
+    title: "Gebruik de nazomer voor grotere correcties in steunwerk en looproutes"
     weeks: [31]
     start_year: 2026
     repeat_every_years: 1

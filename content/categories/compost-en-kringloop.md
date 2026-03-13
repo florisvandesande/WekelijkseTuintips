@@ -15,7 +15,7 @@ items:
     body: |
       Na de winter zijn composthopen vaak nat, ingezakt en scheef in verhouding tussen groen en bruin materiaal. Maak de hoop los, meng droge structuurdelen door natte zones en scherm hem indien nodig af tegen aanhoudende regen. Let op scherpe zure geur of een glanzend natte massa, want dat wijst op te weinig lucht en te veel compact materiaal. Een goede start maakt de hele kringloop later veel betrouwbaarder.
   - id: kringloop-snoeihout-gebruiken
-    title: "Gebruik rustig snoeihout zoveel mogelijk in de tuin zelf"
+    title: "Gebruik snoeihout zoveel mogelijk in de tuin zelf"
     weeks: [9]
     start_year: 2026
     repeat_every_years: 1
@@ -35,7 +35,7 @@ items:
     tags: [composteren, onkruidbeheersing, controle]
     garden_types: [alle]
     body: |
-      In het voorjaar komt veel jong plantmateriaal vrij, maar niet alles is geschikt voor een rustige compostering. Houd wortelonkruid, uitgebloeide zaaddragers en ziek blad apart van schoon groen materiaal en laat het niet achteloos in mulch of compost verdwijnen. Kijk vooral naar kweek, zevenblad en materiaal met duidelijke schimmelsporen, want dat verspreidt zich makkelijk opnieuw. Een strakke scheiding voorkomt dat kringloopwerk later extra herstelwerk wordt.
+      In het voorjaar komt veel jong plantmateriaal vrij, maar niet alles is geschikt voor de composthoop. Houd wortelonkruid, uitgebloeide zaaddragers en ziek blad apart van schoon groen materiaal en laat het niet achteloos in mulch of compost verdwijnen. Kijk vooral naar kweek, zevenblad en materiaal met duidelijke schimmelsporen, want dat verspreidt zich makkelijk opnieuw. Een strakke scheiding voorkomt dat kringloopwerk later extra herstelwerk wordt.
   - id: kringloop-maaigoed-dun-gebruiken
     title: "Gebruik maaigoed alleen in dunne lagen"
     weeks: [20, 23, 27, 30]
@@ -81,7 +81,7 @@ items:
     body: |
       In de nazomer komt veel gemengd materiaal vrij uit borders, potten en moestuin en raakt de werkhoek snel vol. Verdeel zachte resten over compost, gebruik schoon blad als mulch en bundel houtiger stengels apart voor later gebruik of habitat. Laat hopen niet dagenlang op paden of tegen muren liggen, want dat trekt slakken en houdt onnodig vocht vast. Een snelle verdeling houdt de tuin functioneel en de kringloop overzichtelijk.
   - id: kringloop-bladcompost-opbouwen
-    title: "Maak van herfstblad een aparte bladcompoststroom"
+    title: "Maak van herfstblad een aparte hoop voor bladcompost"
     weeks: [44]
     start_year: 2026
     repeat_every_years: 1
@@ -90,9 +90,9 @@ items:
     tags: [composteren, mulchen]
     garden_types: [alle]
     body: |
-      Herfstblad verteert anders dan vers groen materiaal en werkt het best in een eigen rustige stroom. Verzamel schoon blad in een open korf, draadkooi of aparte hoek en houd het licht vochtig zodat het langzaam kan verteren tot bladcompost. Gebruik liever geen dikke lagen ziek of vettig blad van verharding waar veel straatvuil tussen zit. Deze aparte voorraad levert later een zachte bodemverbeteraar op voor borders en heesters.
+      Herfstblad verteert anders dan vers groen materiaal en werkt het best in een eigen hoop. Verzamel schoon blad in een open korf, draadkooi of aparte hoek en houd het licht vochtig zodat het langzaam kan verteren tot bladcompost. Gebruik liever geen dikke lagen ziek of vettig blad van verharding waar veel straatvuil tussen zit. Deze aparte voorraad levert later een zachte bodemverbeteraar op voor borders en heesters.
   - id: kringloop-winter-afdekken
-    title: "Dek kringloophoeken in de winter zo af dat lucht mogelijk blijft"
+    title: "Dek compost- en opslaghoeken in de winter zo af dat lucht mogelijk blijft"
     weeks: [51]
     start_year: 2026
     repeat_every_years: 1

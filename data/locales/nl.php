@@ -6,7 +6,7 @@ return [
     'site_title' => "Floris' tuintips",
     'site_subtitle' => 'Praktische weektaken voor een gezonde tuin.',
     'site_description' => 'Bekijk wat je deze week in de tuin kunt doen, met seizoenshulp en weersverwachting.',
-    'footer_message' => 'Veel tuin plezier',
+    'footer_message' => 'Veel tuinplezier',
     'footer_language' => 'Actieve taal',
     'language_nl' => 'Nederlands',
     'footer_timezone' => 'Tijdzone',
