@@ -14,6 +14,17 @@
     var todayTemp = document.getElementById('header-weather-today-temp');
     var todayLink = document.getElementById('header-weather-today-link');
     var nextList = document.getElementById('header-weather-next');
+    var supportedIconSlugs = {
+        'wi-day-sunny': true,
+        'wi-day-cloudy': true,
+        'wi-cloudy': true,
+        'wi-fog': true,
+        'wi-sprinkle': true,
+        'wi-rain': true,
+        'wi-snow': true,
+        'wi-showers': true,
+        'wi-thunderstorm': true
+    };
 
     if (!apiUrl || !geolocationEnabled || !navigator.geolocation) {
         return;
@@ -43,6 +54,22 @@
         return '';
     }
 
+    function resolveIconSlug(day) {
+        var slug = day && typeof day.weather_icon_slug === 'string' ? day.weather_icon_slug.trim() : '';
+
+        if (supportedIconSlugs[slug]) {
+            return slug;
+        }
+
+        return 'wi-cloudy';
+    }
+
+    function buildIconMarkup(day, size) {
+        var slug = resolveIconSlug(day);
+
+        return '<span class="weather-icon weather-icon--' + size + ' ' + slug + '" aria-hidden="true"></span>';
+    }
+
     function renderForecast(days) {
         if (!Array.isArray(days) || days.length === 0) {
             return;
@@ -52,7 +79,9 @@
         var nextDays = days.slice(1, 4);
 
         if (todayIcon) {
-            todayIcon.textContent = today.weather_icon || '☁';
+            todayIcon.className = 'weather-icon weather-icon--today ' + resolveIconSlug(today);
+            todayIcon.setAttribute('aria-hidden', 'true');
+            todayIcon.textContent = '';
         }
 
         if (todayTemp) {
@@ -65,7 +94,7 @@
                     '<li class="header-weather-next-item">',
                     '<span class="header-weather-next-day">' + escapeHtml(resolveWeekday(day)) + '</span>',
                     '<span class="header-weather-next-main">',
-                    '<span>' + escapeHtml(day.weather_icon || '☁') + '</span>',
+                    buildIconMarkup(day, 'next'),
                     '<span>' + escapeHtml(Math.round(Number(day.max_temp))) + '℃</span>',
                     '</span>',
                     '</li>'

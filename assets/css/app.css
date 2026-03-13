@@ -18,6 +18,7 @@
     --color-text: #2a2a2a;
     --color-muted: #5a5a5a;
     --color-border: #e8dfc8;
+    --color-weather-icon: #24313a;
 
     --color-accent: #f5d16e;
     --color-accent-strong: #f3cf7b;
@@ -51,6 +52,7 @@
         --color-text: #f2e8d6;
         --color-muted: #cbbda2;
         --color-border: #5f503a;
+        --color-weather-icon: #f3ead8;
 
         --color-accent: #d8aa42;
         --color-accent-strong: #f0c56b;
@@ -244,14 +246,10 @@ a:focus-visible {
     margin: 0;
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.45rem;
     font-family: var(--font-ui);
     font-size: 2rem;
     line-height: 1.05;
-}
-
-.header-weather-today-main span:first-child {
-    font-size: 2.1rem;
 }
 
 .header-weather-next {
@@ -279,21 +277,84 @@ a:focus-visible {
 
 .header-weather-next-main {
     display: inline-flex;
-    gap: 0.25rem;
+    gap: 0.35rem;
     align-items: center;
     font-family: var(--font-ui);
     font-size: 1.35rem;
     line-height: 1;
 }
 
-.header-weather-next-main span:first-child {
-    font-size: 1.45rem;
-}
-
 .header-weather-error {
     margin: 0;
     font-size: 0.82rem;
     color: var(--color-high);
+}
+
+.weather-icon {
+    display: inline-block;
+    flex: 0 0 auto;
+    background-color: var(--color-weather-icon);
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+
+.weather-icon--today {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.weather-icon--next {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.wi-day-sunny {
+    mask-image: url('../images/weather/wi-day-sunny.svg');
+    -webkit-mask-image: url('../images/weather/wi-day-sunny.svg');
+}
+
+.wi-day-cloudy {
+    mask-image: url('../images/weather/wi-day-cloudy.svg');
+    -webkit-mask-image: url('../images/weather/wi-day-cloudy.svg');
+}
+
+.wi-cloudy {
+    mask-image: url('../images/weather/wi-cloudy.svg');
+    -webkit-mask-image: url('../images/weather/wi-cloudy.svg');
+}
+
+.wi-fog {
+    mask-image: url('../images/weather/wi-fog.svg');
+    -webkit-mask-image: url('../images/weather/wi-fog.svg');
+}
+
+.wi-sprinkle {
+    mask-image: url('../images/weather/wi-sprinkle.svg');
+    -webkit-mask-image: url('../images/weather/wi-sprinkle.svg');
+}
+
+.wi-rain {
+    mask-image: url('../images/weather/wi-rain.svg');
+    -webkit-mask-image: url('../images/weather/wi-rain.svg');
+}
+
+.wi-snow {
+    mask-image: url('../images/weather/wi-snow.svg');
+    -webkit-mask-image: url('../images/weather/wi-snow.svg');
+}
+
+.wi-showers {
+    mask-image: url('../images/weather/wi-showers.svg');
+    -webkit-mask-image: url('../images/weather/wi-showers.svg');
+}
+
+.wi-thunderstorm {
+    mask-image: url('../images/weather/wi-thunderstorm.svg');
+    -webkit-mask-image: url('../images/weather/wi-thunderstorm.svg');
 }
 
 .week-hero {
@@ -656,8 +717,9 @@ button:focus-visible {
         font-size: 1.7rem;
     }
 
-    .header-weather-today-main span:first-child {
-        font-size: 1.8rem;
+    .weather-icon--today {
+        width: 3.3rem;
+        height: 3.3rem;
     }
 
     .header-weather-next {
