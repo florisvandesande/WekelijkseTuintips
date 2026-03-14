@@ -1,5 +1,22 @@
 # Work Log
 
+## 2026-03-14 (Header weather spacing tweak)
+- Summary:
+  Tightened the multi-day header weather tiles and nudged the larger today icon upward for a more compact visual alignment.
+- Files touched:
+  - Frontend: `assets/css/app.css`
+  - Project memory: `project_memory/current_status.md`, `project_memory/work_log.md`
+- Related tasks/decisions:
+  - Tasks: TASK-118
+  - Decisions: DEC-012
+- Checks run:
+  - CSS selector spot check in `assets/css/app.css`
+- Result:
+  - `.header-weather-next-item` no longer adds internal grid gap.
+  - `.weather-icon--today` now uses `margin-top: -1.6rem;` to raise the icon visually.
+- Next suggested step:
+  - Refresh the local page and confirm the new alignment looks right in the browser.
+
 ## 2026-03-13 (ErikFlowers local weather icons)
 - Summary:
   Replaced the header weather glyphs with a self-hosted ErikFlowers SVG subset, switched the weather payload to `weather_icon_slug`, and doubled the icon sizes for clearer visibility while keeping the mobile overflow fix intact.
