@@ -1,21 +1,22 @@
 # Current Status
 
 ## Current focus
-Finish and verify the local ErikFlowers SVG icon update so the header uses self-hosted weather artwork instead of Unicode glyphs, with doubled icon sizes for clearer visibility.
+Refine the header weather spacing after the ErikFlowers SVG icon rollout so the multi-day tiles sit tighter and the larger today icon aligns higher in the header.
 
 ## Current branch
-- Branch: bugfix/weather-erikflowers-icons
+- Branch: bugfix/weather-header-spacing
 - Worktree: `/tmp/WekelijkseTuintips-weather-erikflowers`
 - Started: 2026-03-13
 
 ## In progress
-- Final visual verification for the new local ErikFlowers SVG header icons in desktop and mobile layouts.
-- Confirm the geolocation refresh continues to swap icon classes and update the Buienradar link.
+- Apply small spacing adjustments to the visible header weather layout.
+- Confirm the tighter tiles still read clearly on desktop and mobile.
 
 ## Blockers
 - None
 
 ## Last completed
+- [2026-03-14] Removed the grid gap from `.header-weather-next-item` and added `margin-top: -1.6rem;` to `.weather-icon--today` for tighter header icon alignment.
 - [2026-03-13] Implemented local ErikFlowers SVG weather icons in the header, switched weather payloads to `weather_icon_slug`, added self-hosted asset notes, and doubled the icon sizes while keeping the existing mobile overflow behavior intact.
 - [2026-03-13] Merged `bugfix/stable-home-route` into `main`, pushed `main`, and cleaned up the merged branch locally and on GitHub.
 - [2026-03-13] Merged `bugfix/dutch-content-language-pass` into `main`, pushed `main`, and cleaned up the merged branch locally and on GitHub.
@@ -25,13 +26,12 @@ Finish and verify the local ErikFlowers SVG icon update so the header uses self-
 - [2026-03-12] Moved month intro text (below date range) from hardcoded PHP to `content/monthly-intros.md`, with fallback defaults in PHP.
 
 ## Next step
-Run a final real-device or iOS Simulator spot check for the new ErikFlowers icons and then commit this bugfix branch if approved.
+Refresh the local page and visually confirm the tighter next-day tiles and higher today icon placement look right.
 
 ## Immediate priorities
 1. Confirm the header shows the local ErikFlowers SVG icons in both light and dark mode.
-2. Verify the geolocation refresh still updates icon classes and the Buienradar link correctly.
-3. Check a real iPhone or iOS Simulator if available, especially with the doubled icon sizes.
+2. Verify the tighter `.header-weather-next-item` layout still reads clearly.
+3. Check that the negative top margin on the today icon does not cause clipping on smaller screens.
 
 ## Notes for next session
-Continue weather-icon work from the clean `/tmp/WekelijkseTuintips-weather-erikflowers` worktree.
 The original repository worktree still contains unrelated local edits in `content/categories/biodiversiteit-en-habitat.md` and `content/categories/moestuin.md`; keep those untouched unless they are intentionally brought into a new branch later.

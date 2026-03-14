@@ -263,7 +263,7 @@ a:focus-visible {
 
 .header-weather-next-item {
     display: grid;
-    gap: 0.7rem;
+    gap: 0;
 }
 
 .header-weather-next-day {
@@ -305,6 +305,7 @@ a:focus-visible {
 .weather-icon--today {
     width: 3.8rem;
     height: 3.8rem;
+    margin-top: -1.6rem;
 }
 
 .weather-icon--next {
